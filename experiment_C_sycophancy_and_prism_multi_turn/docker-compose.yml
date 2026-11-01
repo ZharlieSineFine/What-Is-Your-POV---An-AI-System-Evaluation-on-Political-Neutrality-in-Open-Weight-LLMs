@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  eval-suite:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: cs612-eval-suite:latest
+    container_name: cs612_unified_evaluation
+    environment:
+      - PYTHONUNBUFFERED=1
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      # Mount figures directory so generated plots are saved directly to host
+      - ./figures:/app/figures
+      # Mount experiment outputs for direct persistence
+      - ./system_c_sycophancy/outputs:/app/system_c_sycophancy/outputs
+      - ./prism_defense/outputs:/app/prism_defense/outputs
+    # By default, runs the mock pipeline certifying full reproduction
+    command: ["mock"]

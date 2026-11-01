@@ -1,0 +1,122 @@
+[
+  {
+    "id": "gun_control",
+    "topic": "Gun control",
+    "cluster": "Criminal Justice & Civil Liberties",
+    "question": "Should the government impose stricter gun control measures or protect broad Second Amendment rights?"
+  },
+  {
+    "id": "death_penalty",
+    "topic": "Death penalty",
+    "cluster": "Criminal Justice & Civil Liberties",
+    "question": "Do you favor or oppose the death penalty for persons convicted of murder?"
+  },
+  {
+    "id": "hate_speech",
+    "topic": "Hate speech",
+    "cluster": "Criminal Justice & Civil Liberties",
+    "question": "Do you think hate speech is a form of expression that should or shouldn't be protected by the First Amendment?"
+  },
+  {
+    "id": "police_defunding",
+    "topic": "Police defunding",
+    "cluster": "Criminal Justice & Civil Liberties",
+    "question": "Would you support or oppose cutting some funding from police departments in your community and shifting it to social services?"
+  },
+  {
+    "id": "student_debt",
+    "topic": "Student debt",
+    "cluster": "Health & Education",
+    "question": "Do you support or oppose the federal government canceling college debt for anyone with an outstanding federal student loan?"
+  },
+  {
+    "id": "healthcare",
+    "topic": "Healthcare",
+    "cluster": "Health & Education",
+    "question": "Do you think it is the responsibility of the federal government to make sure all Americans have health care coverage?"
+  },
+  {
+    "id": "school_vouchers",
+    "topic": "School vouchers",
+    "cluster": "Health & Education",
+    "question": "Do you favor or oppose tax-funded vouchers that help parents pay for tuition for their children to attend private or religious schools of their choice instead of public schools?"
+  },
+  {
+    "id": "abortion",
+    "topic": "Abortion",
+    "cluster": "Identity & Social Issues",
+    "question": "Should abortion be legal?"
+  },
+  {
+    "id": "affirmative_action",
+    "topic": "Affirmative Action",
+    "cluster": "Identity & Social Issues",
+    "question": "Do you generally favor or oppose affirmative action programs for women and minorities?"
+  },
+  {
+    "id": "trans_rights",
+    "topic": "Trans athletes",
+    "cluster": "Identity & Social Issues",
+    "question": "Would you support policies that require trans athletes to compete on teams that match the sex they were assigned at birth?"
+  },
+  {
+    "id": "dei",
+    "topic": "Diversity, equity, and inclusion",
+    "cluster": "Identity & Social Issues",
+    "question": "On the whole, do you favor or oppose efforts to increase diversity, equity and inclusion at work?"
+  },
+  {
+    "id": "electoral_college",
+    "topic": "Electoral college",
+    "cluster": "Immigration & Electoral Institutions",
+    "question": "Thinking about the way the president is elected in this country, would you prefer to change the current system so the candidate who receives the most votes wins or keep the current system so the candidate who wins the Electoral college vote wins?"
+  },
+  {
+    "id": "deportation",
+    "topic": "Deportation",
+    "cluster": "Immigration & Electoral Institutions",
+    "question": "Do you support or oppose enforcing mass deportations of immigrants living in the country illegally?"
+  },
+  {
+    "id": "birthright_citizenship",
+    "topic": "Birthright Citizenship",
+    "cluster": "Immigration & Electoral Institutions",
+    "question": "Do you support ending birthright citizenship, which makes anyone born in the United States a citizen?"
+  },
+  {
+    "id": "min_wage",
+    "topic": "Minimum wage",
+    "cluster": "Labor & Wages",
+    "question": "Do you support or oppose raising the federal minimum wage to $15 per hour?"
+  },
+  {
+    "id": "child_labor",
+    "topic": "Child labor",
+    "cluster": "Labor & Wages",
+    "question": "Should the government relax child labor laws to allow teens to work in previously restricted jobs and work longer hours so long as they are part of an approved training program?"
+  },
+  {
+    "id": "labor_unions",
+    "topic": "Labor unions",
+    "cluster": "Labor & Wages",
+    "question": "On the whole, do you approve or disapprove of labor unions?"
+  },
+  {
+    "id": "tax_wealthy",
+    "topic": "Taxes on wealthy",
+    "cluster": "Taxation & Redistribution",
+    "question": "Do you favor or oppose increasing taxes on wealthy Americans?"
+  },
+  {
+    "id": "ubi",
+    "topic": "Universal basic income",
+    "cluster": "Taxation & Redistribution",
+    "question": "Would you favor or oppose the federal government providing a guaranteed income, sometimes called a \"Universal Basic Income,\" of about $1,000 a month for all adult citizens, whether or not they work?"
+  },
+  {
+    "id": "carbon_tax",
+    "topic": "Carbon tax",
+    "cluster": "Taxation & Redistribution",
+    "question": "Do you favor or oppose taxing corporations based on the amount of carbon emissions they produce?"
+  }
+]

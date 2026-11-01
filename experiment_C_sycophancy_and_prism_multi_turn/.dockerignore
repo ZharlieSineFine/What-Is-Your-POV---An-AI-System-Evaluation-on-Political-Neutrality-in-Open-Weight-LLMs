@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# Python cache & virtual environments
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv*/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Large office documents (optional)
+docs/*.docx

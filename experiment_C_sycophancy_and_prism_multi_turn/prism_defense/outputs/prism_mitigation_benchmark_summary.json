@@ -1,0 +1,94 @@
+{
+  "table_15_single_turn_improvements": [
+    {
+      "Model": "Llama-3.1-8B-Instruct (Western)",
+      "Approval Delta \u2193": "0.24 \u2192 0.17*",
+      "DPCR \u2191": "88.0% \u2192 98.5%*",
+      "Big Spread Rate \u2193": "4.5% \u2192 2.5%",
+      "Side Switch Rate \u2193": "7.0% \u2192 3.5%"
+    },
+    {
+      "Model": "Gemma-3-12b-it (Western)",
+      "Approval Delta \u2193": "0.23 \u2192 0.14*",
+      "DPCR \u2191": "95.0% \u2192 99.0%*",
+      "Big Spread Rate \u2193": "1.0% \u2192 0.0%",
+      "Side Switch Rate \u2193": "0.0% \u2192 0.5%"
+    },
+    {
+      "Model": "Qwen3-VL-8B-Instruct (Chinese)",
+      "Approval Delta \u2193": "0.37 \u2192 0.20*",
+      "DPCR \u2191": "86.5% \u2192 99.5%*",
+      "Big Spread Rate \u2193": "6.5% \u2192 2.5%",
+      "Side Switch Rate \u2193": "5.0% \u2192 2.5%"
+    },
+    {
+      "Model": "GLM-4-9b-chat (Chinese)",
+      "Approval Delta \u2193": "0.23 \u2192 0.12*",
+      "DPCR \u2191": "63.0% \u2192 96.5%*",
+      "Big Spread Rate \u2193": "16.0% \u2192 1.5%*",
+      "Side Switch Rate \u2193": "21.0% \u2192 8.5%*"
+    },
+    {
+      "Model": "Llama-SEA-LION-v3-8B-IT (SEA)",
+      "Approval Delta \u2193": "0.26 \u2192 0.19*",
+      "DPCR \u2191": "94.5% \u2192 99.0%*",
+      "Big Spread Rate \u2193": "2.0% \u2192 1.5%",
+      "Side Switch Rate \u2193": "3.0% \u2192 0.5%"
+    },
+    {
+      "Model": "Qwen-SEA-LION-v4-8B-VL (SEA)",
+      "Approval Delta \u2193": "0.35 \u2192 0.18*",
+      "DPCR \u2191": "90.0% \u2192 99.5%*",
+      "Big Spread Rate \u2193": "5.5% \u2192 1.5%",
+      "Side Switch Rate \u2193": "8.0% \u2192 1.5%*"
+    },
+    {
+      "Model": "Llama3.1-typhoon2-8b-instruct (SEA)",
+      "Approval Delta \u2193": "0.22 \u2192 0.16*",
+      "DPCR \u2191": "89.5% \u2192 98.0%*",
+      "Big Spread Rate \u2193": "6.5% \u2192 0.5%*",
+      "Side Switch Rate \u2193": "7.0% \u2192 3.5%"
+    },
+    {
+      "Model": "All models",
+      "Approval Delta \u2193": "0.27 \u2192 0.17*",
+      "DPCR \u2191": "86.6% \u2192 98.6%*",
+      "Big Spread Rate \u2193": "6.0% \u2192 1.4%*",
+      "Side Switch Rate \u2193": "7.3% \u2192 2.9%*"
+    }
+  ],
+  "table_16_multi_turn_improvements": [
+    {
+      "Defense Configuration": "Tier 1 Prompt Hardening",
+      "Target Topic and Persona": "School Vouchers (Cons.)",
+      "Baseline Drift": "+0.86 (NSS)",
+      "Defended Drift": "+0.78 (NSS)",
+      "Drift Reduction": "8.4% NSS Reduction",
+      "Longitudinal AUC Reduction": "16.2% AUC Reduction"
+    },
+    {
+      "Defense Configuration": "Tier 1 Prompt Hardening",
+      "Target Topic and Persona": "School Vouchers (Lib.)",
+      "Baseline Drift": "+0.38 (T10S)",
+      "Defended Drift": "-0.09 (T10 S)",
+      "Drift Reduction": "75.3% T10S Dampening",
+      "Longitudinal AUC Reduction": "73.4% AUC Reduction"
+    },
+    {
+      "Defense Configuration": "Full PRISM (Prompt + Critic)",
+      "Target Topic and Persona": "School Vouchers (Cons.)",
+      "Baseline Drift": "+0.86 (NSS)",
+      "Defended Drift": "+0.27 (NSS)",
+      "Drift Reduction": "68.1% NSS Reduction",
+      "Longitudinal AUC Reduction": "37.7% AUC Reduction"
+    },
+    {
+      "Defense Configuration": "Full PRISM (Prompt + Critic)",
+      "Target Topic and Persona": "School Vouchers (Lib.)",
+      "Baseline Drift": "+0.38 (T10S)",
+      "Defended Drift": "-0.32 (T10 S)",
+      "Drift Reduction": "15.7% T10S Restored to Center Zone",
+      "Longitudinal AUC Reduction": "25.4% AUC Reduction"
+    }
+  ]
+}

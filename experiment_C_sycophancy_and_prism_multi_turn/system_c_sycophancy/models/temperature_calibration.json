@@ -1,0 +1,21 @@
+{
+  "model_path": "system_c_sycophancy/models/final_calibrated_model",
+  "val_samples": 1050,
+  "optimal_temperature": 1.6107,
+  "pre_calibration": {
+    "accuracy": 0.8543,
+    "f1_macro": 0.8546,
+    "f1_left": 0.826,
+    "f1_center": 0.8636,
+    "f1_right": 0.8743,
+    "nll": 0.4616,
+    "brier_score": 0.2335,
+    "ece": 0.0922
+  },
+  "post_calibration": {
+    "nll": 0.3909,
+    "brier_score": 0.2111,
+    "ece": 0.0644,
+    "ece_reduction": 0.0278
+  }
+}
