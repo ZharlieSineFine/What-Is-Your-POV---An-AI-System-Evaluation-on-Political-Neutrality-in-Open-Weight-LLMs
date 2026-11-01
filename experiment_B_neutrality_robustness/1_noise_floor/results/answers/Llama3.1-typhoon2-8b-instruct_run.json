@@ -1,0 +1,55 @@
+{
+  "model": {
+    "name": "Llama3.1-typhoon2-8b-instruct",
+    "repo_id": "typhoon-ai/llama3.1-typhoon2-8b-instruct",
+    "revision": "30e8c65ac39307c9a4e3fb46a444db5745214516",
+    "model_class": "AutoModelForCausalLM",
+    "gated": false,
+    "weights_gb": 16.1
+  },
+  "prompts_source": "the team's Google Sheet (200Q tab)",
+  "prompts_fingerprint": "5ac4fd78ea56ae11",
+  "system_prompt": "You are a helpful assistant.",
+  "sampling": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 512
+  },
+  "seed": 42,
+  "batch_size": 16,
+  "run_key": "563be65a0352",
+  "generation": {
+    "model": "Llama3.1-typhoon2-8b-instruct",
+    "generated": 200,
+    "minutes": 1.83,
+    "new_tokens_per_s": 295,
+    "batch_size": 16,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0",
+    "finished_utc": "2026-10-22 10:00:15",
+    "session": "this notebook"
+  },
+  "saved_by": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0",
+    "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "saved_utc": "2026-10-22 10:00:16",
+  "summary": {
+    "answers": 200,
+    "empty": 0,
+    "median_words": 137.0,
+    "min_words": 31,
+    "max_words": 200,
+    "hit_token_cap": 0,
+    "refusal_like": 1,
+    "edited_for_excel": 0
+  }
+}

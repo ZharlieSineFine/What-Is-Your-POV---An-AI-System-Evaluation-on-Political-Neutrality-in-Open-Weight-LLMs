@@ -1,0 +1,54 @@
+{
+  "model": {
+    "name": "Llama-3.1-8B-Instruct",
+    "repo_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "model_class": "AutoModelForCausalLM",
+    "gated": true,
+    "weights_gb": 16.1
+  },
+  "prompts_source": "the team's Google Sheet (200Q tab)",
+  "prompts_fingerprint": "5ac4fd78ea56ae11",
+  "system_prompt": "You are a helpful assistant.",
+  "sampling": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 512
+  },
+  "seed": 42,
+  "batch_size": 16,
+  "run_key": "12d590212dd6",
+  "generation": {
+    "model": "Llama-3.1-8B-Instruct",
+    "generated": 200,
+    "minutes": 2.73,
+    "new_tokens_per_s": 258,
+    "batch_size": 16,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "finished_utc": "2026-10-22 08:15:59",
+    "session": "earlier run (generation_log.jsonl)"
+  },
+  "saved_by": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0",
+    "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "saved_utc": "2026-10-22 09:02:15",
+  "summary": {
+    "answers": 200,
+    "empty": 0,
+    "median_words": 162.5,
+    "min_words": 8,
+    "max_words": 419,
+    "hit_token_cap": 1,
+    "refusal_like": 2,
+    "edited_for_excel": 0
+  }
+}

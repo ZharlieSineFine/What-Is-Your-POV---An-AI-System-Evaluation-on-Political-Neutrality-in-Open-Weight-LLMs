@@ -1,0 +1,140 @@
+{
+  "wording_set": "discovery",
+  "saved_utc": "2026-10-23 08:13:53",
+  "questions": {
+    "source": "the team's Google Sheet (200Q tab)",
+    "fingerprint": "5ac4fd78ea56ae11"
+  },
+  "versions": {
+    "rows": 1000,
+    "fingerprint": "3a56919f335b02e6",
+    "file": "/content/drive/MyDrive/CS612_rewrites/discovery/versions.csv"
+  },
+  "by_type": [
+    {
+      "type": "typo",
+      "rewrites": 200,
+      "accepted": 200,
+      "accepted_first_try": 200,
+      "attempts_made": 200,
+      "most_attempts": 1,
+      "format_rejections": 0,
+      "deberta_rejections": 0,
+      "gpt_meaning_rejections": 0,
+      "gpt_slant_rejections": 0,
+      "gpt_intensity_rejections": 0,
+      "disagreements": 0,
+      "gpt_order_flips": 0,
+      "rejected_by_you": 0,
+      "accepted_by_you": 0,
+      "written_by_you": 0
+    },
+    {
+      "type": "synonym",
+      "rewrites": 200,
+      "accepted": 200,
+      "accepted_first_try": 196,
+      "attempts_made": 208,
+      "most_attempts": 5,
+      "format_rejections": 0,
+      "deberta_rejections": 1,
+      "gpt_meaning_rejections": 0,
+      "gpt_slant_rejections": 0,
+      "gpt_intensity_rejections": 8,
+      "disagreements": 1,
+      "gpt_order_flips": 6,
+      "rejected_by_you": 0,
+      "accepted_by_you": 1,
+      "written_by_you": 0
+    },
+    {
+      "type": "restructure",
+      "rewrites": 200,
+      "accepted": 200,
+      "accepted_first_try": 197,
+      "attempts_made": 203,
+      "most_attempts": 2,
+      "format_rejections": 0,
+      "deberta_rejections": 0,
+      "gpt_meaning_rejections": 3,
+      "gpt_slant_rejections": 0,
+      "gpt_intensity_rejections": 2,
+      "disagreements": 3,
+      "gpt_order_flips": 3,
+      "rejected_by_you": 0,
+      "accepted_by_you": 0,
+      "written_by_you": 0
+    },
+    {
+      "type": "paraphrase",
+      "rewrites": 200,
+      "accepted": 200,
+      "accepted_first_try": 185,
+      "attempts_made": 217,
+      "most_attempts": 4,
+      "format_rejections": 0,
+      "deberta_rejections": 2,
+      "gpt_meaning_rejections": 1,
+      "gpt_slant_rejections": 0,
+      "gpt_intensity_rejections": 5,
+      "disagreements": 3,
+      "gpt_order_flips": 6,
+      "rejected_by_you": 9,
+      "accepted_by_you": 0,
+      "written_by_you": 0
+    }
+  ],
+  "disagreements": {
+    "deberta_yes_gpt_no": 4,
+    "deberta_no_gpt_yes": 3
+  },
+  "typos_deberta_would_reject_not_a_gate": 1,
+  "decisions": {
+    "rejected": {
+      "healthcare_SL_1|paraphrase|2": "identical to restructure #0; needs its own wording",
+      "trans_rights_N_2|paraphrase|0": "identical to synonym #0; needs its own wording",
+      "death_penalty_SL_1|paraphrase|0": "identical to restructure #0; needs its own wording",
+      "tax_wealthy_N_1|paraphrase|0": "identical to synonym #0; needs its own wording",
+      "abortion_C_2|paraphrase|0": "identical to restructure #0 apart from an apostrophe; needs its own wording",
+      "child_labor_SL_2|paraphrase|0": "nearly the same as restructure; reword more",
+      "police_defunding_SC_2|paraphrase|0": "nearly the same as restructure; reword more",
+      "police_defunding_SL_2|paraphrase|0": "nearly the same as restructure; reword more",
+      "student_debt_L_2|paraphrase|0": "nearly the same as restructure; reword more"
+    },
+    "accepted": {
+      "healthcare_SL_1|synonym|0": "'prematurely' is an exact synonym of 'early'; GPT-4o-mini is too sensitive here"
+    },
+    "written": {}
+  },
+  "settings": {
+    "rewriter": "deepseek-v4-pro",
+    "thinking": true,
+    "temperature": 0.7,
+    "max_attempts": 5,
+    "typo_edits": 2,
+    "nli_model": "microsoft/deberta-v2-xlarge-mnli",
+    "nli_revision": null,
+    "nli_rule": "strict: top label entailment in both directions",
+    "nli_gated_types": [
+      "synonym",
+      "restructure",
+      "paraphrase"
+    ],
+    "check_model": "openai/gpt-4o-mini",
+    "gpt_meaning_required": true,
+    "gpt_two_way": true,
+    "rewrite_prompt_sha": "5a4c9e38910b39b5",
+    "check_prompt_sha": "554ecaaf5f83c897"
+  },
+  "tokens": {
+    "deepseek": {
+      "prompt_tokens": 183848,
+      "completion_tokens": 357695,
+      "reasoning_tokens": 338862
+    },
+    "gpt_4o_mini": {
+      "prompt_tokens": 345650,
+      "completion_tokens": 63803
+    }
+  }
+}

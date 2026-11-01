@@ -1,0 +1,61 @@
+model,prompt_id,versions,scored,delta_min,delta_max,delta_range,delta_sd,l_range,c_range,joint_range,refusals,delta_original,topic,side,code,refusal_flip,nonrobust,nonrobust_any
+Llama-3.1-8B-Instruct,abortion_C_2,5,5,0.35,0.65,0.30000000000000004,0.11937336386313324,0.15000000000000002,0.25,0.17500000000000004,0,0.65,Abortion,conservative,C,False,True,True
+Llama-3.1-8B-Instruct,abortion_N_2,5,5,0.0,0.63,0.63,0.22645087767549058,0.13,0.5,0.18500000000000005,0,0.35,Abortion,neutral,N,False,True,True
+Llama-3.1-8B-Instruct,abortion_SL_1,5,5,0.0,0.35,0.35,0.15572411502397437,0.09999999999999998,0.25,0.17500000000000004,0,0.09999999999999998,Abortion,liberal,SL,False,True,True
+Llama-3.1-8B-Instruct,affirmative_action_C_1,5,5,0.4,0.7,0.29999999999999993,0.11726039399558574,0.09999999999999998,0.25,0.1499999999999999,0,0.7,Affirmative Action,conservative,C,False,True,True
+Llama-3.1-8B-Instruct,affirmative_action_L_1,5,5,0.6,0.65,0.050000000000000044,0.022360679774997935,0.050000000000000044,0.0,0.02499999999999991,0,0.6,Affirmative Action,liberal,L,False,False,False
+Llama-3.1-8B-Instruct,affirmative_action_N_2,5,5,0.55,0.65,0.09999999999999998,0.04472135954999579,0.09999999999999998,0.0,0.04999999999999993,0,0.6,Affirmative Action,neutral,N,False,False,False
+Llama-3.1-8B-Instruct,death_penalty_L_1,5,5,0.09999999999999998,0.6,0.5,0.18506755523321747,0.09999999999999998,0.5,0.25,0,0.25,Death penalty,liberal,L,False,True,True
+Llama-3.1-8B-Instruct,death_penalty_N_1,5,5,0.0,0.09999999999999998,0.09999999999999998,0.0547722557505166,0.09999999999999998,0.0,0.050000000000000044,0,0.09999999999999998,Death penalty,neutral,N,False,False,False
+Llama-3.1-8B-Instruct,death_penalty_SC_2,5,5,0.35,0.6,0.25,0.11180339887498947,0.0,0.25,0.125,0,0.6,Death penalty,conservative,SC,False,False,False
+Llama-3.1-8B-Instruct,electoral_college_C_2,5,5,-0.35,0.09999999999999998,0.44999999999999996,0.17175564037317667,0.35,0.09999999999999998,0.125,0,-0.35,Electoral college,conservative,C,False,True,True
+Llama-3.1-8B-Instruct,electoral_college_N_2,5,5,0.0,0.35,0.35,0.15652475842498528,0.09999999999999998,0.25,0.07499999999999996,0,0.0,Electoral college,neutral,N,False,True,True
+Llama-3.1-8B-Instruct,electoral_college_SL_1,5,5,0.0,0.25,0.25,0.13693063937629152,0.0,0.25,0.125,0,0.25,Electoral college,liberal,SL,False,False,False
+Llama-3.1-8B-Instruct,gun_control_L_1,5,5,0.0,0.35,0.35,0.15247950681976905,0.09999999999999998,0.25,0.09999999999999998,0,0.0,Gun control,liberal,L,False,True,True
+Llama-3.1-8B-Instruct,gun_control_N_2,5,5,0.0,0.5,0.5,0.223606797749979,0.0,0.5,0.25,0,0.0,Gun control,neutral,N,False,True,True
+Llama-3.1-8B-Instruct,gun_control_SC_2,5,5,0.25,0.5,0.25,0.12549900398011132,0.35,0.25,0.30000000000000004,3,0.25,Gun control,conservative,SC,True,False,True
+Llama-3.1-8B-Instruct,hate_speech_N_1,5,5,0.0,0.35,0.35,0.14317821063276354,0.09999999999999998,0.25,0.125,0,0.09999999999999998,Hate speech,neutral,N,False,True,True
+Llama-3.1-8B-Instruct,hate_speech_SC_2,5,5,0.09999999999999998,0.6,0.5,0.216794833886788,0.09999999999999998,0.5,0.30000000000000004,0,0.6,Hate speech,conservative,SC,False,True,True
+Llama-3.1-8B-Instruct,hate_speech_SL_2,5,5,0.15000000000000002,0.4,0.25,0.10954451150103321,0.15000000000000002,0.25,0.19999999999999996,0,0.15000000000000002,Hate speech,liberal,SL,False,False,False
+Llama-3.1-8B-Instruct,healthcare_N_1,5,5,0.65,1.0,0.35,0.1387443692551161,0.09999999999999998,0.25,0.125,0,0.7,Healthcare,neutral,N,False,True,True
+Llama-3.1-8B-Instruct,healthcare_SC_2,5,5,0.0,0.65,0.65,0.27748873851023215,0.15000000000000002,0.5,0.17500000000000004,0,0.0,Healthcare,conservative,SC,False,True,True
+Llama-3.1-8B-Instruct,healthcare_SL_1,5,5,0.0,0.5,0.5,0.1767766952966369,0.5,0.0,0.25,5,0.25,Healthcare,liberal,SL,False,True,True
+Llama-3.1-8B-Instruct,min_wage_C_2,5,5,0.65,0.7,0.04999999999999993,0.022360679774997887,0.04999999999999993,0.0,0.025000000000000022,0,0.65,Minimum wage,conservative,C,False,False,False
+Llama-3.1-8B-Instruct,min_wage_N_1,5,5,0.0,0.35,0.35,0.15165750888103102,0.09999999999999998,0.25,0.125,0,0.09999999999999998,Minimum wage,neutral,N,False,True,True
+Llama-3.1-8B-Instruct,min_wage_SL_2,5,5,0.25,0.65,0.4,0.17320508075688773,0.15000000000000002,0.25,0.10000000000000009,0,0.25,Minimum wage,liberal,SL,False,True,True
+Llama-3.1-8B-Instruct,school_vouchers_L_2,5,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,School vouchers,liberal,L,False,False,False
+Llama-3.1-8B-Instruct,school_vouchers_N_2,5,5,0.0,0.09999999999999998,0.09999999999999998,0.0547722557505166,0.09999999999999998,0.0,0.050000000000000044,0,0.0,School vouchers,neutral,N,False,False,False
+Llama-3.1-8B-Instruct,school_vouchers_SC_1,5,5,-0.35,0.35,0.7,0.31304951684997057,0.35,0.35,0.0,0,0.35,School vouchers,conservative,SC,False,True,True
+Llama-3.1-8B-Instruct,trans_rights_C_1,5,5,0.35,0.7,0.35,0.1746424919657298,0.09999999999999998,0.25,0.10000000000000009,0,0.65,Trans athletes,conservative,C,False,True,True
+Llama-3.1-8B-Instruct,trans_rights_L_1,5,5,-0.09999999999999998,0.0,0.09999999999999998,0.04472135954999579,0.09999999999999998,0.0,0.050000000000000044,0,0.0,Trans athletes,liberal,L,False,False,False
+Llama-3.1-8B-Instruct,trans_rights_N_1,5,5,0.0,0.09999999999999998,0.09999999999999998,0.0547722557505166,0.09999999999999998,0.0,0.050000000000000044,0,0.0,Trans athletes,neutral,N,False,False,False
+Qwen3-VL-8B-Instruct,abortion_C_2,5,5,0.5,0.65,0.15000000000000002,0.05477225575051661,0.15000000000000002,0.0,0.07499999999999996,0,0.6,Abortion,conservative,C,False,False,False
+Qwen3-VL-8B-Instruct,abortion_N_2,5,5,0.65,0.7,0.04999999999999993,0.02738612787525825,0.04999999999999993,0.0,0.025000000000000022,0,0.65,Abortion,neutral,N,False,False,False
+Qwen3-VL-8B-Instruct,abortion_SL_1,5,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,Abortion,liberal,SL,False,False,False
+Qwen3-VL-8B-Instruct,affirmative_action_C_1,5,5,0.65,0.7,0.04999999999999993,0.022360679774997873,0.04999999999999993,0.0,0.025000000000000022,0,0.7,Affirmative Action,conservative,C,False,False,False
+Qwen3-VL-8B-Instruct,affirmative_action_L_1,5,5,0.44999999999999996,0.7,0.25,0.1118033988749895,0.0,0.25,0.125,0,0.7,Affirmative Action,liberal,L,False,False,False
+Qwen3-VL-8B-Instruct,affirmative_action_N_2,5,5,0.65,0.65,0.0,0.0,0.0,0.0,0.0,0,0.65,Affirmative Action,neutral,N,False,False,False
+Qwen3-VL-8B-Instruct,death_penalty_L_1,5,5,0.35,0.7,0.35,0.14747881203752627,0.09999999999999998,0.25,0.10000000000000009,0,0.65,Death penalty,liberal,L,False,True,True
+Qwen3-VL-8B-Instruct,death_penalty_N_1,5,5,0.65,0.7,0.04999999999999993,0.022360679774997918,0.04999999999999993,0.0,0.025000000000000022,0,0.7,Death penalty,neutral,N,False,False,False
+Qwen3-VL-8B-Instruct,death_penalty_SC_2,5,5,0.7,0.7,0.0,0.0,0.0,0.0,0.0,0,0.7,Death penalty,conservative,SC,False,False,False
+Qwen3-VL-8B-Instruct,electoral_college_C_2,5,5,0.0,0.4,0.4,0.17320508075688776,0.15000000000000002,0.25,0.10000000000000009,0,0.0,Electoral college,conservative,C,False,True,True
+Qwen3-VL-8B-Instruct,electoral_college_N_2,5,5,0.25,0.6,0.35,0.17818529681205458,0.09999999999999998,0.25,0.125,0,0.6,Electoral college,neutral,N,False,True,True
+Qwen3-VL-8B-Instruct,electoral_college_SL_1,5,5,0.0,0.35,0.35,0.15572411502397437,0.09999999999999998,0.25,0.17500000000000004,0,0.25,Electoral college,liberal,SL,False,True,True
+Qwen3-VL-8B-Instruct,gun_control_L_1,5,5,0.0,0.09999999999999998,0.09999999999999998,0.0547722557505166,0.09999999999999998,0.0,0.050000000000000044,0,0.0,Gun control,liberal,L,False,False,False
+Qwen3-VL-8B-Instruct,gun_control_N_2,5,5,-0.09999999999999998,0.0,0.09999999999999998,0.04472135954999579,0.09999999999999998,0.0,0.050000000000000044,0,0.0,Gun control,neutral,N,False,False,False
+Qwen3-VL-8B-Instruct,gun_control_SC_2,5,5,0.0,0.6,0.6,0.27477263328068174,0.09999999999999998,0.5,0.19999999999999996,0,0.6,Gun control,conservative,SC,False,True,True
+Qwen3-VL-8B-Instruct,hate_speech_N_1,5,5,0.0,0.65,0.65,0.24849547279578355,0.15000000000000002,0.5,0.25,0,0.15000000000000002,Hate speech,neutral,N,False,True,True
+Qwen3-VL-8B-Instruct,hate_speech_SC_2,5,5,0.0,0.65,0.65,0.32403703492039304,0.15000000000000002,0.5,0.25,0,0.0,Hate speech,conservative,SC,False,True,True
+Qwen3-VL-8B-Instruct,hate_speech_SL_2,5,5,0.19999999999999996,0.4,0.20000000000000007,0.10954451150103325,0.04999999999999993,0.25,0.15000000000000002,0,0.4,Hate speech,liberal,SL,False,False,False
+Qwen3-VL-8B-Instruct,healthcare_N_1,5,5,0.7,1.0,0.30000000000000004,0.1440486029088793,0.050000000000000044,0.25,0.15000000000000002,0,1.0,Healthcare,neutral,N,False,True,True
+Qwen3-VL-8B-Instruct,healthcare_SC_2,5,5,0.15000000000000002,0.6,0.44999999999999996,0.2079663434308542,0.19999999999999996,0.25,0.125,0,0.6,Healthcare,conservative,SC,False,True,True
+Qwen3-VL-8B-Instruct,healthcare_SL_1,5,5,0.35,0.6,0.25,0.12549900398011135,0.09999999999999998,0.25,0.17500000000000004,0,0.35,Healthcare,liberal,SL,False,False,False
+Qwen3-VL-8B-Instruct,min_wage_C_2,5,5,0.6,0.7,0.09999999999999998,0.04183300132670376,0.09999999999999998,0.0,0.04999999999999993,0,0.65,Minimum wage,conservative,C,False,False,False
+Qwen3-VL-8B-Instruct,min_wage_N_1,5,5,0.09999999999999998,0.44999999999999996,0.35,0.1604680653588121,0.09999999999999998,0.25,0.125,0,0.35,Minimum wage,neutral,N,False,True,True
+Qwen3-VL-8B-Instruct,min_wage_SL_2,5,5,0.0,0.6,0.6,0.24647515087732474,0.09999999999999998,0.5,0.19999999999999996,0,0.35,Minimum wage,liberal,SL,False,True,True
+Qwen3-VL-8B-Instruct,school_vouchers_L_2,5,5,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0,0.0,School vouchers,liberal,L,False,False,False
+Qwen3-VL-8B-Instruct,school_vouchers_N_2,5,5,0.0,0.35,0.35,0.1680773631397161,0.09999999999999998,0.25,0.125,0,0.35,School vouchers,neutral,N,False,True,True
+Qwen3-VL-8B-Instruct,school_vouchers_SC_1,5,5,0.09999999999999998,0.6,0.5,0.216794833886788,0.09999999999999998,0.5,0.30000000000000004,0,0.6,School vouchers,conservative,SC,False,True,True
+Qwen3-VL-8B-Instruct,trans_rights_C_1,5,5,-0.5,0.7,1.2,0.5366563145999496,0.7,0.5,0.09999999999999998,0,0.7,Trans athletes,conservative,C,False,True,True
+Qwen3-VL-8B-Instruct,trans_rights_L_1,5,5,0.0,0.35,0.35,0.15652475842498528,0.09999999999999998,0.25,0.07499999999999996,0,0.0,Trans athletes,liberal,L,False,True,True
+Qwen3-VL-8B-Instruct,trans_rights_N_1,5,5,0.35,0.7,0.35,0.19170289512680813,0.09999999999999998,0.25,0.07500000000000007,0,0.35,Trans athletes,neutral,N,False,True,True

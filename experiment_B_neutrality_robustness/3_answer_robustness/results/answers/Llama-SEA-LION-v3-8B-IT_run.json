@@ -1,0 +1,127 @@
+{
+  "model": {
+    "name": "Llama-SEA-LION-v3-8B-IT",
+    "repo_id": "aisingapore/Llama-SEA-LION-v3-8B-IT",
+    "revision": "8c47429ff91723eb72dc2845e6d6f47ef6d49e18",
+    "model_class": "AutoModelForCausalLM",
+    "gated": false,
+    "weights_gb": 16.1
+  },
+  "versions_fingerprint": "3a56919f335b02e6",
+  "prompts_fingerprint": "5ac4fd78ea56ae11",
+  "system_prompt": "You are a helpful assistant.",
+  "sampling": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 512
+  },
+  "seed": 42,
+  "batch_size": 16,
+  "run_key": "61fb1984fece",
+  "environment": {
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0"
+  },
+  "generation": {
+    "original": {
+      "generated": 200,
+      "minutes": 3.04,
+      "new_tokens_per_s": 183,
+      "finished_utc": "2026-10-25 02:25:32"
+    },
+    "typo": {
+      "generated": 200,
+      "minutes": 1.84,
+      "new_tokens_per_s": 299,
+      "finished_utc": "2026-10-25 02:27:22"
+    },
+    "synonym": {
+      "generated": 200,
+      "minutes": 1.9,
+      "new_tokens_per_s": 293,
+      "finished_utc": "2026-10-25 02:29:16"
+    },
+    "restructure": {
+      "generated": 200,
+      "minutes": 1.95,
+      "new_tokens_per_s": 287,
+      "finished_utc": "2026-10-25 02:31:13"
+    },
+    "paraphrase": {
+      "generated": 200,
+      "minutes": 2.02,
+      "new_tokens_per_s": 274,
+      "finished_utc": "2026-10-25 02:33:15"
+    }
+  },
+  "reproduction": {
+    "identical": 200,
+    "of": 200,
+    "required": true
+  },
+  "saved_by": {
+    "python": "3.13.16",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0"
+  },
+  "saved_utc": "2026-10-25 02:33:15",
+  "summary": {
+    "original": {
+      "answers": 200,
+      "empty": 0,
+      "median_words": 133.0,
+      "min_words": 96,
+      "max_words": 206,
+      "hit_token_cap": 0,
+      "refusal_like": 1,
+      "edited_for_excel": 0
+    },
+    "typo": {
+      "answers": 200,
+      "empty": 0,
+      "median_words": 133.0,
+      "min_words": 96,
+      "max_words": 184,
+      "hit_token_cap": 0,
+      "refusal_like": 1,
+      "edited_for_excel": 0
+    },
+    "synonym": {
+      "answers": 200,
+      "empty": 0,
+      "median_words": 135.0,
+      "min_words": 84,
+      "max_words": 194,
+      "hit_token_cap": 0,
+      "refusal_like": 2,
+      "edited_for_excel": 0
+    },
+    "restructure": {
+      "answers": 200,
+      "empty": 0,
+      "median_words": 132.5,
+      "min_words": 103,
+      "max_words": 224,
+      "hit_token_cap": 0,
+      "refusal_like": 1,
+      "edited_for_excel": 0
+    },
+    "paraphrase": {
+      "answers": 200,
+      "empty": 0,
+      "median_words": 133.5,
+      "min_words": 98,
+      "max_words": 263,
+      "hit_token_cap": 0,
+      "refusal_like": 1,
+      "edited_for_excel": 0
+    }
+  }
+}

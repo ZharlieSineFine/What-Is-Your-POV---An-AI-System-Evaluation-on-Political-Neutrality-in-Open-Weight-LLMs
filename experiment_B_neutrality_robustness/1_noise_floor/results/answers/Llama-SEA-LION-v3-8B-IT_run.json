@@ -1,0 +1,55 @@
+{
+  "model": {
+    "name": "Llama-SEA-LION-v3-8B-IT",
+    "repo_id": "aisingapore/Llama-SEA-LION-v3-8B-IT",
+    "revision": "8c47429ff91723eb72dc2845e6d6f47ef6d49e18",
+    "model_class": "AutoModelForCausalLM",
+    "gated": false,
+    "weights_gb": 16.1
+  },
+  "prompts_source": "the team's Google Sheet (200Q tab)",
+  "prompts_fingerprint": "5ac4fd78ea56ae11",
+  "system_prompt": "You are a helpful assistant.",
+  "sampling": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 512
+  },
+  "seed": 42,
+  "batch_size": 16,
+  "run_key": "61fb1984fece",
+  "generation": {
+    "model": "Llama-SEA-LION-v3-8B-IT",
+    "generated": 200,
+    "minutes": 1.98,
+    "new_tokens_per_s": 281,
+    "batch_size": 16,
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0",
+    "finished_utc": "2026-10-22 09:37:53",
+    "session": "this notebook"
+  },
+  "saved_by": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0",
+    "gpu": "NVIDIA A100-SXM4-40GB"
+  },
+  "saved_utc": "2026-10-22 09:37:53",
+  "summary": {
+    "answers": 200,
+    "empty": 0,
+    "median_words": 133.0,
+    "min_words": 96,
+    "max_words": 206,
+    "hit_token_cap": 0,
+    "refusal_like": 1,
+    "edited_for_excel": 0
+  }
+}

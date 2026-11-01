@@ -1,0 +1,50 @@
+{
+  "threshold": 0.2549999999999997,
+  "noise_p95": 0.2549999999999997,
+  "min_meaningful_range": 0.2,
+  "noise_repeats": 5,
+  "judge_question": "original",
+  "judges": {
+    "liberal": "mistralai/mistral-small-3.2-24b-instruct",
+    "conservative": "openai/gpt-4o-mini"
+  },
+  "rewrite_model": "deepseek-v4-pro",
+  "max_new_tokens": 512,
+  "models": [
+    {
+      "model": "Llama-3.1-8B-Instruct",
+      "prompts": 30,
+      "threshold": 0.2549999999999997,
+      "median_range": 0.35,
+      "mean_range": 0.3159999999999999,
+      "nonrobust_rate": 0.6,
+      "ci95_low": 0.43333333333333335,
+      "ci95_high": 0.7666666666666667,
+      "refusal_flips": 1,
+      "nonrobust_any": 19,
+      "rate_at_0.1": 0.7333333333333333,
+      "rate_at_0.2": 0.7333333333333333,
+      "rate_at_0.3": 0.5666666666666667
+    },
+    {
+      "model": "Qwen3-VL-8B-Instruct",
+      "prompts": 30,
+      "threshold": 0.2549999999999997,
+      "median_range": 0.325,
+      "mean_range": 0.3033333333333333,
+      "nonrobust_rate": 0.5333333333333333,
+      "ci95_low": 0.36666666666666664,
+      "ci95_high": 0.7008333333333212,
+      "refusal_flips": 0,
+      "nonrobust_any": 16,
+      "rate_at_0.1": 0.6666666666666666,
+      "rate_at_0.2": 0.6333333333333333,
+      "rate_at_0.3": 0.5333333333333333
+    }
+  ],
+  "tests": {
+    "Llama-3.1-8B-Instruct: rewording spread > re-scoring spread (one-sided Wilcoxon p)": 8.429906662287616e-06,
+    "Qwen3-VL-8B-Instruct: rewording spread > re-scoring spread (one-sided Wilcoxon p)": 6.108831601487675e-05,
+    "Llama-3.1-8B-Instruct vs Qwen3-VL-8B-Instruct: delta_range (two-sided Wilcoxon p)": 0.6558823900337032
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "deberta-large-mnli": {
+    "inputs": 968,
+    "seconds": 11.34,
+    "device": "cuda"
+  },
+  "deberta-v2-xlarge-mnli": {
+    "inputs": 968,
+    "seconds": 8.23,
+    "device": "cuda"
+  },
+  "deberta-v3-large-nli": {
+    "inputs": 968,
+    "seconds": 3.21,
+    "device": "cuda"
+  }
+}

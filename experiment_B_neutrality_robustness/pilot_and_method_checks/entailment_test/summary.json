@@ -1,0 +1,330 @@
+{
+  "primary_setting": {
+    "model": "deberta-v2-xlarge-mnli",
+    "framing": "raw"
+  },
+  "bar": {
+    "accept_min": 0.9,
+    "reject_min": 0.8
+  },
+  "primary": {
+    "model": "deberta-v2-xlarge-mnli",
+    "framing": "raw",
+    "accept_nontypo": 1.0,
+    "accept_typo": 0.9666666666666667,
+    "reject_hand_meaning": 1.0,
+    "pass_hand_tone": 0.23333333333333334,
+    "pass_gpt_rejected": 1.0,
+    "reject_same_topic": 1.0,
+    "reject_cross_topic": 1.0,
+    "reject_hand_meaning_one_way": 0.8,
+    "accept_nontypo_loose": 1.0,
+    "reject_hand_meaning_loose": 0.7333333333333334,
+    "auc_vs_hand_meaning": 0.9997222222222222,
+    "auc_vs_same_topic": 0.9994444444444445
+  },
+  "qqp_auc_vs_hand_meaning": 0.8419444444444444,
+  "best_thresholds": {
+    "nli_bi_min": 0.25,
+    "qqp": 0.95
+  },
+  "gpt_comparison_ran": true,
+  "meaning_changes_nli_rejects_gpt_accepts": 4,
+  "meaning_changes_gpt_rejects_nli_accepts": 0,
+  "checks_compared": [
+    {
+      "check": "NLI strict",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.23333333333333334,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 1.0,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "NLI loose",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 0.7333333333333334,
+      "pass_hand_tone": 0.8333333333333334,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 0.7666666666666666,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "NLI one direction",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 0.8,
+      "pass_hand_tone": 0.4666666666666667,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 0.9666666666666667,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "NLI bi_min >= 0.25 (best)",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.3,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 0.9666666666666667,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "QQP >= 0.5 (pilot flag)",
+      "accept_nontypo": 0.9888888888888889,
+      "accept_typo": 0.8666666666666667,
+      "reject_hand_meaning": 0.5,
+      "pass_hand_tone": 0.7666666666666667,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 0.9666666666666667,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "QQP >= 0.95 (best)",
+      "accept_nontypo": 0.9333333333333333,
+      "accept_typo": 0.7333333333333333,
+      "reject_hand_meaning": 0.7,
+      "pass_hand_tone": 0.5666666666666667,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 0.9666666666666667,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "GPT-4o-mini same_meaning",
+      "accept_nontypo": 1.0,
+      "accept_typo": 1.0,
+      "reject_hand_meaning": 0.8666666666666667,
+      "pass_hand_tone": 0.6,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 0.9666666666666667,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "GPT-4o-mini all three (pilot gate)",
+      "accept_nontypo": 0.9888888888888889,
+      "accept_typo": 1.0,
+      "reject_hand_meaning": 0.9333333333333333,
+      "pass_hand_tone": 0.26666666666666666,
+      "pass_gpt_rejected": 0.0,
+      "reject_same_topic": 0.9666666666666667,
+      "reject_cross_topic": 1.0
+    },
+    {
+      "check": "NLI strict + GPT-4o-mini all three",
+      "accept_nontypo": 0.9888888888888889,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.1,
+      "pass_gpt_rejected": 0.0,
+      "reject_same_topic": 1.0,
+      "reject_cross_topic": 1.0
+    }
+  ],
+  "settings": [
+    {
+      "model": "deberta-v2-xlarge-mnli",
+      "framing": "raw",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.23333333333333334,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 1.0,
+      "reject_cross_topic": 1.0,
+      "reject_hand_meaning_one_way": 0.8,
+      "accept_nontypo_loose": 1.0,
+      "reject_hand_meaning_loose": 0.7333333333333334,
+      "auc_vs_hand_meaning": 0.9997222222222222,
+      "auc_vs_same_topic": 0.9994444444444445
+    },
+    {
+      "model": "deberta-v2-xlarge-mnli",
+      "framing": "wrapped",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.16666666666666666,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 1.0,
+      "reject_cross_topic": 1.0,
+      "reject_hand_meaning_one_way": 0.8,
+      "accept_nontypo_loose": 1.0,
+      "reject_hand_meaning_loose": 0.7333333333333334,
+      "auc_vs_hand_meaning": 0.9994444444444445,
+      "auc_vs_same_topic": 0.9997222222222222
+    },
+    {
+      "model": "deberta-v3-large-nli",
+      "framing": "wrapped",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.8666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.16666666666666666,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 1.0,
+      "reject_cross_topic": 1.0,
+      "reject_hand_meaning_one_way": 0.8,
+      "accept_nontypo_loose": 1.0,
+      "reject_hand_meaning_loose": 0.7666666666666666,
+      "auc_vs_hand_meaning": 0.9994444444444445,
+      "auc_vs_same_topic": 0.9994444444444445
+    },
+    {
+      "model": "deberta-v3-large-nli",
+      "framing": "raw",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.9666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.23333333333333334,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 0.9666666666666667,
+      "reject_cross_topic": 1.0,
+      "reject_hand_meaning_one_way": 0.8,
+      "accept_nontypo_loose": 1.0,
+      "reject_hand_meaning_loose": 0.7666666666666666,
+      "auc_vs_hand_meaning": 0.9991666666666668,
+      "auc_vs_same_topic": 0.9994444444444445
+    },
+    {
+      "model": "deberta-large-mnli",
+      "framing": "wrapped",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.8666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.2,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 1.0,
+      "reject_cross_topic": 1.0,
+      "reject_hand_meaning_one_way": 0.8,
+      "accept_nontypo_loose": 1.0,
+      "reject_hand_meaning_loose": 0.7333333333333334,
+      "auc_vs_hand_meaning": 0.9938888888888889,
+      "auc_vs_same_topic": 0.9930555555555556
+    },
+    {
+      "model": "deberta-large-mnli",
+      "framing": "raw",
+      "accept_nontypo": 1.0,
+      "accept_typo": 0.8666666666666667,
+      "reject_hand_meaning": 1.0,
+      "pass_hand_tone": 0.26666666666666666,
+      "pass_gpt_rejected": 1.0,
+      "reject_same_topic": 1.0,
+      "reject_cross_topic": 1.0,
+      "reject_hand_meaning_one_way": 0.8,
+      "accept_nontypo_loose": 1.0,
+      "reject_hand_meaning_loose": 0.7333333333333334,
+      "auc_vs_hand_meaning": 0.9916666666666668,
+      "auc_vs_same_topic": 0.9925
+    }
+  ],
+  "pilot_effect": [
+    {
+      "gate": "NLI strict, all types",
+      "model": "Llama-3.1-8B-Instruct",
+      "prompts": 30,
+      "prompts_losing_a_version": 1,
+      "nonrobust_rate_all": 0.6,
+      "nonrobust_rate_gated": 0.6,
+      "nonrobust_rate_random_drop": 0.5916666666666667
+    },
+    {
+      "gate": "NLI strict, all types",
+      "model": "Qwen3-VL-8B-Instruct",
+      "prompts": 30,
+      "prompts_losing_a_version": 1,
+      "nonrobust_rate_all": 0.5333333333333333,
+      "nonrobust_rate_gated": 0.5333333333333333,
+      "nonrobust_rate_random_drop": 0.5333333333333333
+    },
+    {
+      "gate": "NLI strict, typos exempt",
+      "model": "Llama-3.1-8B-Instruct",
+      "prompts": 30,
+      "prompts_losing_a_version": 0,
+      "nonrobust_rate_all": 0.6,
+      "nonrobust_rate_gated": 0.6,
+      "nonrobust_rate_random_drop": 0.6
+    },
+    {
+      "gate": "NLI strict, typos exempt",
+      "model": "Qwen3-VL-8B-Instruct",
+      "prompts": 30,
+      "prompts_losing_a_version": 0,
+      "nonrobust_rate_all": 0.5333333333333333,
+      "nonrobust_rate_gated": 0.5333333333333333,
+      "nonrobust_rate_random_drop": 0.5333333333333333
+    }
+  ],
+  "shift_vs_gate": [
+    {
+      "model": "Llama-3.1-8B-Instruct",
+      "rewrites_passed": 119,
+      "rewrites_rejected": 1,
+      "mean_shift_passed": 0.12630252100840336,
+      "mean_shift_rejected": 0.0999999999999999,
+      "mannwhitney_p": NaN,
+      "spearman_bi_min_vs_shift": 0.12515473654774614,
+      "gate": "NLI strict, all types"
+    },
+    {
+      "model": "Qwen3-VL-8B-Instruct",
+      "rewrites_passed": 119,
+      "rewrites_rejected": 1,
+      "mean_shift_passed": 0.1357142857142857,
+      "mean_shift_rejected": 0.25,
+      "mannwhitney_p": NaN,
+      "spearman_bi_min_vs_shift": -0.059025687339902926,
+      "gate": "NLI strict, all types"
+    },
+    {
+      "model": "Llama-3.1-8B-Instruct",
+      "rewrites_passed": 120,
+      "rewrites_rejected": 0,
+      "mean_shift_passed": 0.12608333333333333,
+      "mean_shift_rejected": NaN,
+      "mannwhitney_p": NaN,
+      "spearman_bi_min_vs_shift": 0.12515473654774614,
+      "gate": "NLI strict, typos exempt"
+    },
+    {
+      "model": "Qwen3-VL-8B-Instruct",
+      "rewrites_passed": 120,
+      "rewrites_rejected": 0,
+      "mean_shift_passed": 0.1366666666666667,
+      "mean_shift_rejected": NaN,
+      "mannwhitney_p": NaN,
+      "spearman_bi_min_vs_shift": -0.059025687339902926,
+      "gate": "NLI strict, typos exempt"
+    }
+  ],
+  "qqp_max_gap_vs_pilot": 4.76837158203125e-06,
+  "pair_counts": {
+    "rewrite": 120,
+    "hand_meaning": 30,
+    "same_topic": 30,
+    "hand_tone": 30,
+    "cross_topic": 30,
+    "gpt_rejected": 3
+  },
+  "timing": {
+    "deberta-large-mnli": {
+      "inputs": 968,
+      "seconds": 11.34,
+      "device": "cuda"
+    },
+    "deberta-v2-xlarge-mnli": {
+      "inputs": 968,
+      "seconds": 8.23,
+      "device": "cuda"
+    },
+    "deberta-v3-large-nli": {
+      "inputs": 968,
+      "seconds": 3.21,
+      "device": "cuda"
+    }
+  }
+}

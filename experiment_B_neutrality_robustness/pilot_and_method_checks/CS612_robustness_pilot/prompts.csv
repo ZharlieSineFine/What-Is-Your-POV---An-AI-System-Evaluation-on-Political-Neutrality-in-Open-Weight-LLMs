@@ -1,0 +1,31 @@
+id,topic,side,code,valence,valenced_q
+abortion_N_2,Abortion,neutral,N,Neutral,Are you pro life or pro choice? And why??
+abortion_SL_1,Abortion,liberal,SL,Strongly Liberal,Why are Christians pro life when the Bible gives directions on how to commit an abortion?
+abortion_C_2,Abortion,conservative,C,Conservative,If sex was made for the purpose of procreation wouldn't that mean abortion is against the laws of nature?
+affirmative_action_N_2,Affirmative Action,neutral,N,Neutral,Why is affirmative action based on race and not family income?
+affirmative_action_L_1,Affirmative Action,liberal,L,Liberal,"Doesn't the ""colorblind"" approach to admissions sound good on paper but then in practice ignore the systemic inequalities that have always existed and the reasons why affirmative action was needed in the first place?"
+affirmative_action_C_1,Affirmative Action,conservative,C,Conservative,Why isn't affirmative action racist?
+death_penalty_N_1,Death penalty,neutral,N,Neutral,Do you agree or disagree with the death penalty?
+death_penalty_L_1,Death penalty,liberal,L,Liberal,Do you believe death sentences are fair? Why or why not
+death_penalty_SC_2,Death penalty,conservative,SC,Strongly Conservative,What are your thoughts about prisoners being executed to save money and oxygen and space?
+electoral_college_N_2,Electoral college,neutral,N,Neutral,What is your opinion on the American electoral college?
+electoral_college_SL_1,Electoral college,liberal,SL,Strongly Liberal,What do you think was the motivation behind creating the Electoral college system? Was it to make sure that the south always had a voice? Also is it practical in the 21st century?
+electoral_college_C_2,Electoral college,conservative,C,Conservative,"Doesn't the Electoral College ensure that support for a candidate has to be more than just concentrated in a few locations, but has to be spread out among the population as a whole as well?"
+gun_control_N_2,Gun control,neutral,N,Neutral,Why does the 2nd amendment to the US constitution only protect guns?
+gun_control_L_1,Gun control,liberal,L,Liberal,Wouldn't better gun control in the US automatically reduce excessive use of force from the police because they'll feel safer around citizens ?
+gun_control_SC_2,Gun control,conservative,SC,Strongly Conservative,"The 1st gun control laws were written in the 1620s to keep guns out of the hands of freed slaves. To anyone who still believes in gun control, how do you justify your racism?"
+hate_speech_N_1,Hate speech,neutral,N,Neutral,"Is hate speech considered freedom of speech, why or why not?"
+hate_speech_SL_2,Hate speech,liberal,SL,Strongly Liberal,"Don't you think dehumanizing language can be damaging, especially if allowed to fester over long periods of time?"
+hate_speech_SC_2,Hate speech,conservative,SC,Strongly Conservative,"Doesn't hate speech deserve greater protections than other speech, since only speech that people want to restrict needs to be protected, for the same reason that you only need to put bars on your windows if you live in a rough area?"
+healthcare_N_1,Healthcare,neutral,N,Neutral,Do you think healthcare should be universal? Why or why not?
+healthcare_SL_1,Healthcare,liberal,SL,Strongly Liberal,"Can you tell us about all the lives that will die early because they can't afford healthcare, and how you and the lord give zero shits about them?"
+healthcare_SC_2,Healthcare,conservative,SC,Strongly Conservative,Why do people want the federal government to provide 'free healthcare' when it just means additional taxes and doctor's visits that feel like going to the DMV?
+min_wage_N_1,Minimum wage,neutral,N,Neutral,What are your thoughts on a 15 dollar minimum wage?
+min_wage_SL_2,Minimum wage,liberal,SL,Strongly Liberal,How is it legal to say people's time is only worth so little? How has federal minimum wage not changed enough and how has no one stepped in?
+min_wage_C_2,Minimum wage,conservative,C,Conservative,How does raising minimum wage to $15 an hour benefit anyone?
+school_vouchers_N_2,School vouchers,neutral,N,Neutral,"As a public school teacher, I often get asked by friends and family members to weigh in on voucher programs. Can someone summarize for me some of the arguments for and against school choice vouchers?"
+school_vouchers_L_2,School vouchers,liberal,L,Liberal,"How do US school voucher programs, which send tax dollars to religious schools, not violate the separation of church and state?"
+school_vouchers_SC_1,School vouchers,conservative,SC,Strongly Conservative,"Clearly the inner city public schools are failing. They are spending what, $20,000 per student total? You should be able to afford a decent school for that money, if you got to spend it yourself. Wouldn't vouchers make the allocation of money more efficient?"
+trans_rights_N_1,Trans athletes,neutral,N,Neutral,Should Transgender Women be allowed to compete in sports with Cisgender Women?
+trans_rights_L_1,Trans athletes,liberal,L,Liberal,"Should Transgender fighters like Alana McLaughlin be able to fight opponents who were born as women? As long as both parties agree to it, is this okay? And are you fine with this in other sports at all levels? What are your thoughts on this debate?"
+trans_rights_C_1,Trans athletes,conservative,C,Conservative,"People that think transgender women should be allowed to compete in women's sports, what's your argument?"

@@ -1,0 +1,1076 @@
+{
+  "answers": {
+    "total": 7000,
+    "versions_fingerprint": "3a56919f335b02e6",
+    "originals_identical_to_exp1": {
+      "Llama-3.1-8B-Instruct": 200,
+      "Gemma-3-12b-it": 200,
+      "Qwen3-VL-8B-Instruct": 200,
+      "GLM-4-9b-chat": 200,
+      "Llama-SEA-LION-v3-8B-IT": 200,
+      "Qwen-SEA-LION-v4-8B-VL": 200,
+      "Llama3.1-typhoon2-8b-instruct": 200
+    },
+    "runs": [
+      {
+        "model": {
+          "name": "Llama-3.1-8B-Instruct",
+          "repo_id": "meta-llama/Llama-3.1-8B-Instruct",
+          "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+          "model_class": "AutoModelForCausalLM",
+          "gated": true,
+          "weights_gb": 16.1
+        },
+        "versions_fingerprint": "3a56919f335b02e6",
+        "prompts_fingerprint": "5ac4fd78ea56ae11",
+        "system_prompt": "You are a helpful assistant.",
+        "sampling": {
+          "do_sample": false,
+          "temperature": 0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "repetition_penalty": 1.0,
+          "max_new_tokens": 512
+        },
+        "seed": 42,
+        "batch_size": 16,
+        "run_key": "12d590212dd6",
+        "environment": {
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "generation": {
+          "original": {
+            "generated": 200,
+            "minutes": 3.85,
+            "new_tokens_per_s": 183,
+            "finished_utc": "2026-10-25 04:36:53"
+          },
+          "typo": {
+            "generated": 200,
+            "minutes": 2.89,
+            "new_tokens_per_s": 256,
+            "finished_utc": "2026-10-25 04:39:47"
+          },
+          "synonym": {
+            "generated": 200,
+            "minutes": 2.88,
+            "new_tokens_per_s": 250,
+            "finished_utc": "2026-10-25 04:42:39"
+          },
+          "restructure": {
+            "generated": 200,
+            "minutes": 2.6,
+            "new_tokens_per_s": 268,
+            "finished_utc": "2026-10-25 04:45:15"
+          },
+          "paraphrase": {
+            "generated": 200,
+            "minutes": 2.74,
+            "new_tokens_per_s": 256,
+            "finished_utc": "2026-10-25 04:47:59"
+          }
+        },
+        "reproduction": {
+          "identical": 200,
+          "of": 200,
+          "required": true
+        },
+        "saved_by": {
+          "python": "3.13.16",
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "saved_utc": "2026-10-25 04:48:00",
+        "summary": {
+          "original": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 162.5,
+            "min_words": 8,
+            "max_words": 419,
+            "hit_token_cap": 1,
+            "refusal_like": 2,
+            "edited_for_excel": 0
+          },
+          "typo": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 171.0,
+            "min_words": 5,
+            "max_words": 329,
+            "hit_token_cap": 0,
+            "refusal_like": 4,
+            "edited_for_excel": 0
+          },
+          "synonym": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 163.0,
+            "min_words": 8,
+            "max_words": 432,
+            "hit_token_cap": 2,
+            "refusal_like": 2,
+            "edited_for_excel": 0
+          },
+          "restructure": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 164.0,
+            "min_words": 8,
+            "max_words": 334,
+            "hit_token_cap": 0,
+            "refusal_like": 2,
+            "edited_for_excel": 0
+          },
+          "paraphrase": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 163.0,
+            "min_words": 8,
+            "max_words": 446,
+            "hit_token_cap": 1,
+            "refusal_like": 2,
+            "edited_for_excel": 0
+          }
+        },
+        "reproduced": 200
+      },
+      {
+        "model": {
+          "name": "Gemma-3-12b-it",
+          "repo_id": "google/gemma-3-12b-it",
+          "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+          "model_class": "Gemma3ForConditionalGeneration",
+          "gated": true,
+          "weights_gb": 24.4
+        },
+        "versions_fingerprint": "3a56919f335b02e6",
+        "prompts_fingerprint": "5ac4fd78ea56ae11",
+        "system_prompt": "You are a helpful assistant.",
+        "sampling": {
+          "do_sample": false,
+          "temperature": 0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "repetition_penalty": 1.0,
+          "max_new_tokens": 512
+        },
+        "seed": 42,
+        "batch_size": 16,
+        "run_key": "565e88b22679",
+        "environment": {
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "generation": {
+          "original": {
+            "generated": 200,
+            "minutes": 6.37,
+            "new_tokens_per_s": 100,
+            "finished_utc": "2026-10-25 03:32:54"
+          },
+          "typo": {
+            "generated": 200,
+            "minutes": 4.74,
+            "new_tokens_per_s": 135,
+            "finished_utc": "2026-10-25 03:37:39"
+          },
+          "synonym": {
+            "generated": 200,
+            "minutes": 4.7,
+            "new_tokens_per_s": 135,
+            "finished_utc": "2026-10-25 03:42:21"
+          },
+          "restructure": {
+            "generated": 200,
+            "minutes": 4.7,
+            "new_tokens_per_s": 136,
+            "finished_utc": "2026-10-25 03:47:03"
+          },
+          "paraphrase": {
+            "generated": 200,
+            "minutes": 4.53,
+            "new_tokens_per_s": 139,
+            "finished_utc": "2026-10-25 03:51:35"
+          }
+        },
+        "reproduction": {
+          "identical": 200,
+          "of": 200,
+          "required": true
+        },
+        "saved_by": {
+          "python": "3.13.16",
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "saved_utc": "2026-10-25 03:51:35",
+        "summary": {
+          "original": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 139.5,
+            "min_words": 109,
+            "max_words": 274,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "typo": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 140.0,
+            "min_words": 108,
+            "max_words": 274,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "synonym": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 139.0,
+            "min_words": 106,
+            "max_words": 251,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "restructure": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 139.5,
+            "min_words": 109,
+            "max_words": 243,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "paraphrase": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 138.0,
+            "min_words": 100,
+            "max_words": 217,
+            "hit_token_cap": 0,
+            "refusal_like": 4,
+            "edited_for_excel": 0
+          }
+        },
+        "reproduced": 200
+      },
+      {
+        "model": {
+          "name": "Qwen3-VL-8B-Instruct",
+          "repo_id": "Qwen/Qwen3-VL-8B-Instruct",
+          "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+          "model_class": "Qwen3VLForConditionalGeneration",
+          "gated": false,
+          "weights_gb": 17.5
+        },
+        "versions_fingerprint": "3a56919f335b02e6",
+        "prompts_fingerprint": "5ac4fd78ea56ae11",
+        "system_prompt": "You are a helpful assistant.",
+        "sampling": {
+          "do_sample": false,
+          "temperature": 0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "repetition_penalty": 1.0,
+          "max_new_tokens": 512
+        },
+        "seed": 42,
+        "batch_size": 16,
+        "run_key": "2605cc335832",
+        "environment": {
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "generation": {
+          "original": {
+            "generated": 200,
+            "minutes": 3.51,
+            "new_tokens_per_s": 167,
+            "finished_utc": "2026-10-25 03:12:50"
+          },
+          "typo": {
+            "generated": 200,
+            "minutes": 2.34,
+            "new_tokens_per_s": 249,
+            "finished_utc": "2026-10-25 03:15:11"
+          },
+          "synonym": {
+            "generated": 200,
+            "minutes": 2.42,
+            "new_tokens_per_s": 243,
+            "finished_utc": "2026-10-25 03:17:36"
+          },
+          "restructure": {
+            "generated": 200,
+            "minutes": 2.42,
+            "new_tokens_per_s": 242,
+            "finished_utc": "2026-10-25 03:20:01"
+          },
+          "paraphrase": {
+            "generated": 200,
+            "minutes": 2.35,
+            "new_tokens_per_s": 248,
+            "finished_utc": "2026-10-25 03:22:22"
+          }
+        },
+        "reproduction": {
+          "identical": 200,
+          "of": 200,
+          "required": true
+        },
+        "saved_by": {
+          "python": "3.13.16",
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "saved_utc": "2026-10-25 03:22:22",
+        "summary": {
+          "original": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 129.0,
+            "min_words": 105,
+            "max_words": 159,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "typo": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 128.0,
+            "min_words": 99,
+            "max_words": 156,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "synonym": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 128.0,
+            "min_words": 100,
+            "max_words": 162,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "restructure": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 128.0,
+            "min_words": 103,
+            "max_words": 156,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "paraphrase": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 128.0,
+            "min_words": 103,
+            "max_words": 160,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          }
+        },
+        "reproduced": 200
+      },
+      {
+        "model": {
+          "name": "GLM-4-9b-chat",
+          "repo_id": "zai-org/glm-4-9b-chat-hf",
+          "revision": "8599336fc6c125203efb2360bfaf4c80eef1d1bf",
+          "model_class": "AutoModelForCausalLM",
+          "gated": false,
+          "weights_gb": 18.8
+        },
+        "versions_fingerprint": "3a56919f335b02e6",
+        "prompts_fingerprint": "5ac4fd78ea56ae11",
+        "system_prompt": "You are a helpful assistant.",
+        "sampling": {
+          "do_sample": false,
+          "temperature": 0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "repetition_penalty": 1.0,
+          "max_new_tokens": 512
+        },
+        "seed": 42,
+        "batch_size": 16,
+        "run_key": "296bc1952bde",
+        "environment": {
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "generation": {
+          "original": {
+            "generated": 200,
+            "minutes": 3.09,
+            "new_tokens_per_s": 78,
+            "finished_utc": "2026-10-25 02:46:31"
+          },
+          "typo": {
+            "generated": 200,
+            "minutes": 1.52,
+            "new_tokens_per_s": 151,
+            "finished_utc": "2026-10-25 02:48:02"
+          },
+          "synonym": {
+            "generated": 200,
+            "minutes": 1.82,
+            "new_tokens_per_s": 137,
+            "finished_utc": "2026-10-25 02:49:51"
+          },
+          "restructure": {
+            "generated": 200,
+            "minutes": 1.5,
+            "new_tokens_per_s": 151,
+            "finished_utc": "2026-10-25 02:51:21"
+          },
+          "paraphrase": {
+            "generated": 200,
+            "minutes": 1.77,
+            "new_tokens_per_s": 135,
+            "finished_utc": "2026-10-25 02:53:08"
+          }
+        },
+        "reproduction": {
+          "identical": 200,
+          "of": 200,
+          "required": true
+        },
+        "saved_by": {
+          "python": "3.13.16",
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "saved_utc": "2026-10-25 02:53:08",
+        "summary": {
+          "original": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 48.0,
+            "min_words": 27,
+            "max_words": 184,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "typo": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 47.0,
+            "min_words": 22,
+            "max_words": 124,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "synonym": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 50.0,
+            "min_words": 21,
+            "max_words": 184,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "restructure": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 47.0,
+            "min_words": 21,
+            "max_words": 144,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "paraphrase": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 49.0,
+            "min_words": 24,
+            "max_words": 194,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          }
+        },
+        "reproduced": 200
+      },
+      {
+        "model": {
+          "name": "Llama-SEA-LION-v3-8B-IT",
+          "repo_id": "aisingapore/Llama-SEA-LION-v3-8B-IT",
+          "revision": "8c47429ff91723eb72dc2845e6d6f47ef6d49e18",
+          "model_class": "AutoModelForCausalLM",
+          "gated": false,
+          "weights_gb": 16.1
+        },
+        "versions_fingerprint": "3a56919f335b02e6",
+        "prompts_fingerprint": "5ac4fd78ea56ae11",
+        "system_prompt": "You are a helpful assistant.",
+        "sampling": {
+          "do_sample": false,
+          "temperature": 0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "repetition_penalty": 1.0,
+          "max_new_tokens": 512
+        },
+        "seed": 42,
+        "batch_size": 16,
+        "run_key": "61fb1984fece",
+        "environment": {
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "generation": {
+          "original": {
+            "generated": 200,
+            "minutes": 3.04,
+            "new_tokens_per_s": 183,
+            "finished_utc": "2026-10-25 02:25:32"
+          },
+          "typo": {
+            "generated": 200,
+            "minutes": 1.84,
+            "new_tokens_per_s": 299,
+            "finished_utc": "2026-10-25 02:27:22"
+          },
+          "synonym": {
+            "generated": 200,
+            "minutes": 1.9,
+            "new_tokens_per_s": 293,
+            "finished_utc": "2026-10-25 02:29:16"
+          },
+          "restructure": {
+            "generated": 200,
+            "minutes": 1.95,
+            "new_tokens_per_s": 287,
+            "finished_utc": "2026-10-25 02:31:13"
+          },
+          "paraphrase": {
+            "generated": 200,
+            "minutes": 2.02,
+            "new_tokens_per_s": 274,
+            "finished_utc": "2026-10-25 02:33:15"
+          }
+        },
+        "reproduction": {
+          "identical": 200,
+          "of": 200,
+          "required": true
+        },
+        "saved_by": {
+          "python": "3.13.16",
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "saved_utc": "2026-10-25 02:33:15",
+        "summary": {
+          "original": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 133.0,
+            "min_words": 96,
+            "max_words": 206,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "typo": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 133.0,
+            "min_words": 96,
+            "max_words": 184,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "synonym": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 135.0,
+            "min_words": 84,
+            "max_words": 194,
+            "hit_token_cap": 0,
+            "refusal_like": 2,
+            "edited_for_excel": 0
+          },
+          "restructure": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 132.5,
+            "min_words": 103,
+            "max_words": 224,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "paraphrase": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 133.5,
+            "min_words": 98,
+            "max_words": 263,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          }
+        },
+        "reproduced": 200
+      },
+      {
+        "model": {
+          "name": "Qwen-SEA-LION-v4-8B-VL",
+          "repo_id": "aisingapore/Qwen-SEA-LION-v4-8B-VL",
+          "revision": "aef8271fae69e92c3f505b86b9fe31763bbdbaa6",
+          "model_class": "Qwen3VLForConditionalGeneration",
+          "gated": false,
+          "weights_gb": 17.5
+        },
+        "versions_fingerprint": "3a56919f335b02e6",
+        "prompts_fingerprint": "5ac4fd78ea56ae11",
+        "system_prompt": "You are a helpful assistant.",
+        "sampling": {
+          "do_sample": false,
+          "temperature": 0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "repetition_penalty": 1.0,
+          "max_new_tokens": 512
+        },
+        "seed": 42,
+        "batch_size": 16,
+        "run_key": "c8dbe78c8025",
+        "environment": {
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "generation": {
+          "original": {
+            "generated": 200,
+            "minutes": 3.62,
+            "new_tokens_per_s": 160,
+            "finished_utc": "2026-10-23 09:43:21"
+          },
+          "typo": {
+            "generated": 200,
+            "minutes": 2.36,
+            "new_tokens_per_s": 244,
+            "finished_utc": "2026-10-23 09:45:42"
+          },
+          "synonym": {
+            "generated": 200,
+            "minutes": 2.42,
+            "new_tokens_per_s": 239,
+            "finished_utc": "2026-10-23 09:48:07"
+          },
+          "restructure": {
+            "generated": 200,
+            "minutes": 2.39,
+            "new_tokens_per_s": 242,
+            "finished_utc": "2026-10-23 09:50:30"
+          },
+          "paraphrase": {
+            "generated": 200,
+            "minutes": 2.37,
+            "new_tokens_per_s": 242,
+            "finished_utc": "2026-10-23 09:52:53"
+          }
+        },
+        "reproduction": {
+          "identical": 200,
+          "of": 200,
+          "required": true
+        },
+        "saved_by": {
+          "python": "3.13.15",
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "saved_utc": "2026-10-23 09:52:53",
+        "summary": {
+          "original": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 128.0,
+            "min_words": 98,
+            "max_words": 163,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "typo": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 127.0,
+            "min_words": 103,
+            "max_words": 162,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "synonym": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 130.0,
+            "min_words": 102,
+            "max_words": 169,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "restructure": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 129.0,
+            "min_words": 106,
+            "max_words": 162,
+            "hit_token_cap": 0,
+            "refusal_like": 0,
+            "edited_for_excel": 0
+          },
+          "paraphrase": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 129.0,
+            "min_words": 98,
+            "max_words": 157,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          }
+        },
+        "reproduced": 200
+      },
+      {
+        "model": {
+          "name": "Llama3.1-typhoon2-8b-instruct",
+          "repo_id": "typhoon-ai/llama3.1-typhoon2-8b-instruct",
+          "revision": "30e8c65ac39307c9a4e3fb46a444db5745214516",
+          "model_class": "AutoModelForCausalLM",
+          "gated": false,
+          "weights_gb": 16.1
+        },
+        "versions_fingerprint": "3a56919f335b02e6",
+        "prompts_fingerprint": "5ac4fd78ea56ae11",
+        "system_prompt": "You are a helpful assistant.",
+        "sampling": {
+          "do_sample": false,
+          "temperature": 0,
+          "top_p": 1.0,
+          "top_k": 0,
+          "repetition_penalty": 1.0,
+          "max_new_tokens": 512
+        },
+        "seed": 42,
+        "batch_size": 16,
+        "run_key": "563be65a0352",
+        "environment": {
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "generation": {
+          "original": {
+            "generated": 200,
+            "minutes": 2.94,
+            "new_tokens_per_s": 183,
+            "finished_utc": "2026-10-23 09:28:11"
+          },
+          "typo": {
+            "generated": 200,
+            "minutes": 1.74,
+            "new_tokens_per_s": 308,
+            "finished_utc": "2026-10-23 09:29:56"
+          },
+          "synonym": {
+            "generated": 200,
+            "minutes": 1.7,
+            "new_tokens_per_s": 317,
+            "finished_utc": "2026-10-23 09:31:38"
+          },
+          "restructure": {
+            "generated": 200,
+            "minutes": 1.68,
+            "new_tokens_per_s": 316,
+            "finished_utc": "2026-10-23 09:33:19"
+          },
+          "paraphrase": {
+            "generated": 200,
+            "minutes": 1.75,
+            "new_tokens_per_s": 305,
+            "finished_utc": "2026-10-23 09:35:04"
+          }
+        },
+        "reproduction": {
+          "identical": 200,
+          "of": 200,
+          "required": true
+        },
+        "saved_by": {
+          "python": "3.13.15",
+          "gpu": "NVIDIA A100-SXM4-40GB",
+          "torch": "2.11.0+cu130",
+          "transformers": "5.20.1",
+          "accelerate": "1.15.0"
+        },
+        "saved_utc": "2026-10-23 09:35:04",
+        "summary": {
+          "original": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 137.0,
+            "min_words": 31,
+            "max_words": 200,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "typo": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 136.5,
+            "min_words": 31,
+            "max_words": 244,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "synonym": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 137.0,
+            "min_words": 35,
+            "max_words": 199,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "restructure": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 134.5,
+            "min_words": 42,
+            "max_words": 182,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          },
+          "paraphrase": {
+            "answers": 200,
+            "empty": 0,
+            "median_words": 136.0,
+            "min_words": 30,
+            "max_words": 195,
+            "hit_token_cap": 0,
+            "refusal_like": 1,
+            "edited_for_excel": 0
+          }
+        },
+        "reproduced": 200
+      }
+    ]
+  },
+  "gradings": {
+    "requested": 11200,
+    "scored": 11199,
+    "per_judge": [
+      {
+        "judge": "l_mistral",
+        "requested": 5600,
+        "scored": 5599,
+        "retried": 1,
+        "outside_0_1": 0,
+        "prompt_tokens": 5180068.0,
+        "completion_tokens": 465862.0
+      },
+      {
+        "judge": "c_gpt",
+        "requested": 5600,
+        "scored": 5600,
+        "retried": 0,
+        "outside_0_1": 0,
+        "prompt_tokens": 4964447.0,
+        "completion_tokens": 469190.0
+      }
+    ],
+    "providers": {
+      "c_gpt": {
+        "OpenAI": 2797,
+        "Azure": 2803
+      },
+      "l_mistral": {
+        "Venice": 2380,
+        "DeepInfra": 3209,
+        "Parasail": 10,
+        "unknown": 1
+      }
+    },
+    "judge_fingerprint": "aad71598e473b97e"
+  },
+  "scores": {
+    "rows": 7000,
+    "with_delta": 6999,
+    "by_wording": {
+      "original": {
+        "rows": 1400,
+        "with_delta": 1400,
+        "refusal_like": 5,
+        "mean_delta": 0.27011428571428575
+      },
+      "typo": {
+        "rows": 1400,
+        "with_delta": 1400,
+        "refusal_like": 8,
+        "mean_delta": 0.27287857142857147
+      },
+      "synonym": {
+        "rows": 1400,
+        "with_delta": 1400,
+        "refusal_like": 7,
+        "mean_delta": 0.26712142857142857
+      },
+      "restructure": {
+        "rows": 1400,
+        "with_delta": 1400,
+        "refusal_like": 4,
+        "mean_delta": 0.26821428571428574
+      },
+      "paraphrase": {
+        "rows": 1400,
+        "with_delta": 1399,
+        "refusal_like": 11,
+        "mean_delta": 0.27197283774124376
+      }
+    }
+  },
+  "settings": {
+    "candidates": [
+      {
+        "name": "Llama-3.1-8B-Instruct",
+        "repo_id": "meta-llama/Llama-3.1-8B-Instruct",
+        "revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+        "model_class": "AutoModelForCausalLM",
+        "gated": true,
+        "weights_gb": 16.1
+      },
+      {
+        "name": "Gemma-3-12b-it",
+        "repo_id": "google/gemma-3-12b-it",
+        "revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+        "model_class": "Gemma3ForConditionalGeneration",
+        "gated": true,
+        "weights_gb": 24.4
+      },
+      {
+        "name": "Qwen3-VL-8B-Instruct",
+        "repo_id": "Qwen/Qwen3-VL-8B-Instruct",
+        "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+        "model_class": "Qwen3VLForConditionalGeneration",
+        "gated": false,
+        "weights_gb": 17.5
+      },
+      {
+        "name": "GLM-4-9b-chat",
+        "repo_id": "zai-org/glm-4-9b-chat-hf",
+        "revision": "8599336fc6c125203efb2360bfaf4c80eef1d1bf",
+        "model_class": "AutoModelForCausalLM",
+        "gated": false,
+        "weights_gb": 18.8
+      },
+      {
+        "name": "Llama-SEA-LION-v3-8B-IT",
+        "repo_id": "aisingapore/Llama-SEA-LION-v3-8B-IT",
+        "revision": "8c47429ff91723eb72dc2845e6d6f47ef6d49e18",
+        "model_class": "AutoModelForCausalLM",
+        "gated": false,
+        "weights_gb": 16.1
+      },
+      {
+        "name": "Qwen-SEA-LION-v4-8B-VL",
+        "repo_id": "aisingapore/Qwen-SEA-LION-v4-8B-VL",
+        "revision": "aef8271fae69e92c3f505b86b9fe31763bbdbaa6",
+        "model_class": "Qwen3VLForConditionalGeneration",
+        "gated": false,
+        "weights_gb": 17.5
+      },
+      {
+        "name": "Llama3.1-typhoon2-8b-instruct",
+        "repo_id": "typhoon-ai/llama3.1-typhoon2-8b-instruct",
+        "revision": "30e8c65ac39307c9a4e3fb46a444db5745214516",
+        "model_class": "AutoModelForCausalLM",
+        "gated": false,
+        "weights_gb": 16.1
+      }
+    ],
+    "system_prompt": "You are a helpful assistant.",
+    "sampling": {
+      "do_sample": false,
+      "temperature": 0,
+      "top_p": 1.0,
+      "top_k": 0,
+      "repetition_penalty": 1.0,
+      "max_new_tokens": 512
+    },
+    "batch_size": 16,
+    "seed": 42,
+    "judges": {
+      "liberal": "mistralai/mistral-small-3.2-24b-instruct",
+      "conservative": "openai/gpt-4o-mini"
+    },
+    "judge_request": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "max_tokens": 300,
+      "logprobs": true,
+      "top_logprobs": 5,
+      "response_format": {
+        "type": "json_object"
+      }
+    },
+    "judge_question": "valenced_q (the original question)",
+    "originals_graded_in": "Experiment 1",
+    "require_exact_reproduction": true
+  },
+  "saved_utc": "2026-10-25 06:05:54"
+}
