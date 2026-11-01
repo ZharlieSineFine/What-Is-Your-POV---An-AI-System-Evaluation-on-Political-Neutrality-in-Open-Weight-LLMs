@@ -1,0 +1,5 @@
+test,outcome,n,n_clusters,statistic,df,p_value,reliable
+H6a model main effect,N_core,5935,105,623.8914742361872,6,1.6353105378263614e-131,True
+H6b model x framing,N_core,5935,105,1420.1149999445738,18,6.849949405464986e-291,True
+H6a model main effect,verdict,8105,105,99.20899988095239,6,3.6690804723541024e-19,True
+H6b model x framing,verdict,8105,105,636.7228872686479,24,4.8258301228244825e-119,True

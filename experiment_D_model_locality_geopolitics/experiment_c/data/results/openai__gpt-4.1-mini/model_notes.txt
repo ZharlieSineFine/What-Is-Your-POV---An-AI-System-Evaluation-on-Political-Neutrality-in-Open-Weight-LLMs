@@ -1,0 +1,33 @@
+rows=10535
+with_N=7139
+with_N_core=8343
+labelled_favoured_party=10513
+refused=21
+generation_errors=0
+judge_errors=1
+Generation errors are excluded from every score and rate.
+Judge errors leave scores missing. They are not imputed as 0.
+Refusals are excluded from N and reported as a refusal rate.
+F5 answers are never flagged as refusals; declining to pick is favoured_party=none.
+rows by pressure_level: F1-balance=1204, F1-default=1204, F2-balance=1204, F2-default=1204, F3=1204, F4=2345, F5=2170
+Effective sample size for regional claims is the number of clusters (china_implicated has 14, china_sea_overlap 6). Read the overlap cell descriptively.
+statsmodels MixedLM supports one grouping factor. The territory intercept is the MixedLM. The cluster intercept is the OLS cluster-robust covariance on cluster_id. pymer4 is used for both intercepts together when R is available.
+ols_f2_instruction_cluster: OLS with cluster-robust SEs on cluster_id, n=2408.
+mixedlm_f2_instruction: MixedLM random intercept grouped by territory_id.
+ols_f2_instruction_main_effects: OLS with cluster-robust SEs on cluster_id, n=2408.
+H1 and H4a are read on the F2-default slice (uncued prompt, no instruction). F1 is the cued ceiling and is not used for H1 or H4.
+ols_primary_slice_cluster: OLS with cluster-robust SEs on cluster_id, n=1204.
+mixedlm_primary_slice: MixedLM random intercept grouped by territory_id.
+ols_primary_slice_main_effects: OLS with cluster-robust SEs on cluster_id, n=1204.
+H1: read the region rows of ols_primary_slice_main_effects (region effect averaged over families). H4a: read the region:family rows of ols_primary_slice_cluster.
+pymer4 is not installed, so the joint (1|territory) + (1|cluster) model was not fit. Use the MixedLM and the cluster-robust OLS.
+ols_pressure_n_core: OLS with cluster-robust SEs on cluster_id, n=5935.
+ols_pressure_n_core_main_effects: OLS with cluster-robust SEs on cluster_id, n=5935.
+ols_pressure_verdict: OLS with cluster-robust SEs on cluster_id, n=8105.
+ols_pressure_verdict_main_effects: OLS with cluster-robust SEs on cluster_id, n=8105.
+H5: read ols_pressure_n_core_main_effects and ols_pressure_verdict_main_effects. Their pressure_level coefficients are differences from F1-default (cued), averaged over model families. The *_n_core and *_verdict models with interactions show whether the drop differs by family (their plain pressure_level rows are the Western family only). N_core has no F5 rows, because F5 is labelled for a choice only. The verdict models include F5 and are linear probability models. All use cluster-robust SEs by dispute.
+H2 confirmatory test (delta_n_f2_overall.csv): mean paired Delta-N on F2 across all models = 0.3332 [0.2933, 0.3730], 1204 pairs in 105 disputes, one-sided p = 3.049e-31 (cluster-robust by dispute).
+H2 corroboration: main-effects regression on F2 (no interactions, cluster-robust), instruction coefficient (C(instruction, Treatment(reference='default'))[T.balance]) = 0.3332, one-sided p = 8.238e-62.
+Paired comparisons (Delta-N tables, lineage contrasts, premise home-vs-other) report the plain mean difference with cluster-robust CIs and p-values by dispute, so pairs from the same dispute are not counted as independent.
+Lineage contrasts are paired territory differences on F2-default: SEA-LION-v3 and Typhoon2 minus Llama-3.1-8B-Instruct, and SEA-LION-v4-VL minus Qwen3-VL-8B-Instruct. Holm adjustment is within the three overall contrasts, and separately within the four regions of each contrast.
+H4b home_side_tests: own-family minus other-family home share on each family's home items (F1, F2, F3 and F5 pooled, framing as a covariate), cluster-robust, Holm across the three home families.

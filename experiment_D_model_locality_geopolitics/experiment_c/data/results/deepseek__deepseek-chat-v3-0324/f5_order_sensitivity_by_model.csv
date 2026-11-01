@@ -1,0 +1,8 @@
+model_key,family,n_territories,consistent,order_dependent,declined,unpaired,order_dependent_share_of_picks
+gemma-3-12b-it,western,155,100,54,1,0,0.35064935064935066
+llama-3.1-8b-instruct,western,155,109,34,12,0,0.23776223776223776
+glm-4-9b-chat,chinese,155,125,29,1,0,0.18831168831168832
+qwen3-vl-8b-instruct,chinese,155,88,63,4,0,0.41721854304635764
+llama-sea-lion-v3-8b-it,sea,155,120,32,3,0,0.21052631578947367
+llama3.1-typhoon2-8b-instruct,sea,155,133,19,3,0,0.125
+qwen-sea-lion-v4-8b-vl,sea,155,89,61,5,0,0.4066666666666667

@@ -1,0 +1,37 @@
+{
+  "n_territories": 251,
+  "n_core_territories": 172,
+  "n_pilot_territories": 20,
+  "n_prompts": 1505,
+  "n_prompts_by_framing": {
+    "F1": 344,
+    "F2": 344,
+    "F3": 310,
+    "F4": 172,
+    "F5": 335
+  },
+  "regions": {
+    "other": 154,
+    "sea_implicated": 16,
+    "china_implicated": 73,
+    "china_sea_overlap": 8
+  },
+  "core_regions": {
+    "other": 75,
+    "sea_implicated": 16,
+    "china_implicated": 73,
+    "china_sea_overlap": 8
+  },
+  "core_clusters_by_region": {
+    "china_implicated": 14,
+    "china_sea_overlap": 6,
+    "other": 75,
+    "sea_implicated": 10
+  },
+  "n_clusters": 105,
+  "n_multi_territory_clusters": 50,
+  "n_western_salient": 36,
+  "n_western_salient_core": 19,
+  "roc_kept_on_gold_list": 12,
+  "roc_dropped_from_gold_list": 69
+}

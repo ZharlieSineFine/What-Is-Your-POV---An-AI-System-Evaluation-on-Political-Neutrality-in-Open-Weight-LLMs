@@ -1,0 +1,7 @@
+# Laptop environment for tests, the judge, and analyze.
+# Create it with: python -m experiment_c.setup_venv
+pandas>=2.2,<3
+numpy>=1.26,<2.3
+scipy>=1.11,<1.16
+statsmodels>=0.14,<0.15
+matplotlib>=3.7,<4

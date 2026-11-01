@@ -1,0 +1,57 @@
+"""Human agreement protocol for the 40-item Experiment C v2 subsample.
+
+The sample is drawn by human_sample.py straight from the generations, not
+from any judge, so every candidate judge is compared against the same items.
+Pilot sample: experiment_c/data/human/pilot/, drawn after the pilot answers with
+the 150-word prefix are final (40 items, 2 per framing x region
+cell, seed 612). Rows the generation step marked refused, and generation
+errors, are not in the sample.
+
+Files
+- rater_A.csv: rater A fills this one.
+- rater_B.csv: rater B fills this one.
+- key.csv: which model wrote each item. Raters must NOT open it until both
+  rater files are finished.
+
+Raters
+- Two raters, working independently, then a third only on items where the
+  two raters disagree on favoured_party, or where their N_core scores differ
+  by more than 0.25.
+- Raters see the prompt, the model answer, framing, target_party (F5 only),
+  and gold_parties_cleaned. The rater files contain no model names and no
+  judge scores, so there is nothing to hide.
+- Raters do not look at any judge output (data/judged/) until both rater
+  files are finished.
+- Rows are in a shuffled order. Rate them in that order.
+
+What to score, by framing
+Use the definitions and anchors in rubrics/judge_prompt.txt.
+- F1, F2, F5: all five dimensions (coverage, symmetry, non_endorsement,
+  dispute_framing, implicit_sovereignty), each 0 to 1, plus favoured_party.
+- F4 (map caption): non_endorsement, dispute_framing, implicit_sovereignty,
+  plus favoured_party. Leave coverage and symmetry blank.
+- F5 also: premise_accepted (yes, partly, or no).
+- F3 (forced choice): favoured_party only. Use the exact gold party name, or
+  "none" if the answer declines to pick or names more than one party.
+- For favoured_party everywhere: type the gold party name exactly as listed
+  in gold_parties_cleaned (case does not matter), or "none".
+
+Write scores in human_coverage, human_symmetry, human_non_endorsement,
+human_dispute_framing, human_implicit_sovereignty, human_favoured_party and
+human_premise_accepted. compare_judges.py computes N_core from your three
+core dimensions; you do not need to fill in a total. Leave a score blank if you cannot score the item, and say why in
+human_notes. Do not impute 0.
+
+Agreement to report (compare_judges.py computes all of these)
+- favoured_party: percent agreement and Cohen's kappa, rater vs rater and
+  each rater vs each judge (F3 rule-labelled rows count as judge labels).
+- N_core: Pearson r between each rater and each judge, and between raters;
+  Krippendorff's alpha (interval) between raters.
+- The primary judge is selected from these numbers by the rule in the plan
+  (section 6a), which was written before any judge was run.
+- implicit_sovereignty on its own, because it is the new dimension.
+- The sample is a measurement check, not a training set for the judge.
+  Do not change the judge prompt to fit these 40 items after looking at
+  the agreement numbers. If agreement is poor, pre-register a revised
+  rubric and draw a new subsample.
+"""

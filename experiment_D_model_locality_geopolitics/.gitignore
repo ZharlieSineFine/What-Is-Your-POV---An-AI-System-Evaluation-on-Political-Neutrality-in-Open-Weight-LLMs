@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+~$*
+.DS_Store
+
+# Not part of the code submission (kept locally)
+docs/
+progress_log.md
+.claude/
+.pytest_cache/
+
+# OneDrive sync-conflict copies and local bundles
+*-LAPTOP-*
+*.zip
+
+# Local-only or superseded outputs
+out/
+experiment_c/data/results/*/figures/
+experiment_c/data/results_pilot/
+experiment_c/data/judge_comparison/
+experiment_c/data/repro_check_final/
+experiment_c/data/judged/archived-pilot/
+experiment_c/data/judged/*/scored_answers.stale-partial.jsonl

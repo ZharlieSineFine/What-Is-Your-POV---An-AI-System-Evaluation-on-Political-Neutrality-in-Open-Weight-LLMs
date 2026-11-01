@@ -1,0 +1,26 @@
+term,coef,se,pvalue,ci_low,ci_high
+Intercept,9.224237965049942e-16,280195.37485957827,1.0,-549172.8433594732,549172.8433594732
+"C(instruction, Treatment(reference='default'))[T.balance]",0.3890043999999979,0.019133337060668443,6.806554670135319e-92,0.3515037484570223,0.4265050515429735
+"C(analysis_region, Treatment(reference='other'))[T.china_implicated]",-2.5516560777426485e-15,398960.9504309449,1.0,-781949.0940825217,781949.0940825217
+"C(analysis_region, Treatment(reference='other'))[T.china_sea_overlap]",-3.4666960548570545e-16,902516.2181156469,1.0,-1768899.2829699637,1768899.2829699637
+"C(analysis_region, Treatment(reference='other'))[T.sea_implicated]",-7.019384263264225e-16,668223.3803356743,1.0,-1309693.759085532,1309693.759085532
+"C(family, Treatment(reference='western'))[T.chinese]",-0.03200040000000404,0.019133337060668342,0.0944268618169895,-0.06950105154297945,0.005500251542971374
+"C(family, Treatment(reference='western'))[T.sea]",-0.03918582222222532,0.017466267180796236,0.024863661264168706,-0.07341907684093989,-0.004952567603510746
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.china_implicated]",-0.10178974246575023,0.027243327419181687,0.00018673427835886081,-0.15518568302637886,-0.04839380190512159
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.china_sea_overlap]",-0.199416899999997,0.06162895091533997,0.0012131654363031822,-0.32020742419905013,-0.07862637580094387
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.sea_implicated]",-0.0015043999999970747,0.0456301006902381,0.973698937931414,-0.09093775396380002,0.08792895396380587
+"C(instruction, Treatment(reference='default'))[T.balance]:C(family, Treatment(reference='western'))[T.chinese]",-0.08689279999999466,0.02705862476465268,0.0013214545833561367,-0.13992673000989753,-0.033858869990091814
+"C(instruction, Treatment(reference='default'))[T.balance]:C(family, Treatment(reference='western'))[T.sea]",0.009070266666670351,0.024701031931114305,0.7134683977289726,-0.03934286629928755,0.05748339963262825
+"C(analysis_region, Treatment(reference='other'))[T.china_implicated]:C(family, Treatment(reference='western'))[T.chinese]",0.029945605479456197,0.027243327419181625,0.27168500094589776,-0.02345033508117233,0.08334154604008473
+"C(analysis_region, Treatment(reference='other'))[T.china_sea_overlap]:C(family, Treatment(reference='western'))[T.chinese]",-0.028412099999996776,0.061628950915339945,0.644785175261728,-0.14920262419904987,0.09237842419905631
+"C(analysis_region, Treatment(reference='other'))[T.sea_implicated]:C(family, Treatment(reference='western'))[T.chinese]",-0.030499599999996296,0.04563010069023807,0.5038721321454647,-0.11993295396379917,0.05893375396380658
+"C(analysis_region, Treatment(reference='other'))[T.china_implicated]:C(family, Treatment(reference='western'))[T.sea]",0.018637877016745352,0.024869641614974722,0.45360239941028613,-0.030105724857023647,0.06738147889051435
+"C(analysis_region, Treatment(reference='other'))[T.china_sea_overlap]:C(family, Treatment(reference='western'))[T.sea]",-0.027476677777775682,0.05625927768618396,0.625270990955727,-0.13774283583893415,0.08278948028338279
+"C(analysis_region, Treatment(reference='other'))[T.sea_implicated]:C(family, Treatment(reference='western'))[T.sea]",-0.039980844444441804,0.041654392415459124,0.33714429791534384,-0.12162195337664007,0.04166026448775646
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.china_implicated]:C(family, Treatment(reference='western'))[T.chinese]",0.07228088219177645,0.038527883120377304,0.06064610857240752,-0.003232381124731745,0.14779414550828462
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.china_sea_overlap]:C(family, Treatment(reference='western'))[T.chinese]",0.11396779999999507,0.08715649821929941,0.19100137404961137,-0.05685579752846112,0.2847913975284513
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.sea_implicated]:C(family, Treatment(reference='western'))[T.chinese]",0.04001779999999444,0.06453070724858447,0.5351684023354903,-0.0864600621041289,0.1664956621041178
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.china_implicated]:C(family, Treatment(reference='western'))[T.sea]",0.027915989041093603,0.035170984463255686,0.4273572084817657,-0.04101787380770534,0.09684985188989255
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.china_sea_overlap]:C(family, Treatment(reference='western'))[T.sea]",0.032592233333330944,0.07956263351311543,0.6820682411503108,-0.12334766286753482,0.1885321295341967
+"C(instruction, Treatment(reference='default'))[T.balance]:C(analysis_region, Treatment(reference='other'))[T.sea_implicated]:C(family, Treatment(reference='western'))[T.sea]",0.015929733333328533,0.05890820668635338,0.7868400792867863,-0.09952823016576569,0.13138769683242274
+Group Var,0.0,,,,

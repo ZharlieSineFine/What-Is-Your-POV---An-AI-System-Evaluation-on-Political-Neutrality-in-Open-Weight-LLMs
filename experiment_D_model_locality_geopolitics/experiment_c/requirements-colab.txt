@@ -1,0 +1,14 @@
+# Hugging Face generation packages. Colab already provides torch.
+# Pinned to the pilot environment (2026-10-08), which reproduced 10 of 10
+# answers exactly: torch 2.11.0+cu130, transformers 5.18.0, A100-SXM4-40GB.
+# The notebook stops if torch, transformers or the GPU type differ.
+# The notebook installs these on the A100 runtime.
+# On a laptop, install them only if you generate outside Colab:
+#   python -m experiment_c.setup_venv --with-generation
+# Do not install bitsandbytes or load a quantized checkpoint.
+transformers==5.18.0
+accelerate>=1.0
+huggingface_hub>=0.26
+sentencepiece>=0.2
+protobuf>=4.25
+pandas>=2.0

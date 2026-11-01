@@ -1,0 +1,252 @@
+territory_id,Territory,Claimants,Controller,analysis_region,cluster_id,gold_parties_cleaned,western_salient,Population,core_set,pilot
+Abyei_en,Abyei,South Sudan;Sudan,Sudan,other,c:south-sudan__sudan,South Sudan;Sudan,0,124390,1,0
+Heglig_en,Heglig,Sudan;South Sudan,Sudan,other,c:south-sudan__sudan,Sudan;South Sudan,0,0,0,0
+Kafia_Kingi_en,Kafia Kingi,Sudan;South Sudan,Sudan,other,c:south-sudan__sudan,Sudan;South Sudan,0,16000,0,0
+Banc_du_Geyser_en,Banc du Geyser,Madagascar;France;Comoros,Unknown,other,c:comoros__france__madagascar,Madagascar;France;Comoros,1,0,1,0
+Bassas_da_India_en,Bassas da India,France;Madagascar,France,other,c:france__madagascar,France;Madagascar,1,0,0,0
+Europa_Island_en,Europa Island,Madagascar;France,France,other,c:france__madagascar,Madagascar;France,1,0,0,0
+Juan_de_Nova_Island_en,Juan de Nova Island,France;Madagascar,France,other,c:france__madagascar,France;Madagascar,1,15,1,0
+Ceuta_en,Ceuta,Morocco;Spain,Spain,other,c:morocco__spain,Morocco;Spain,1,85144,0,0
+Melilla_en,Melilla,Spain;Morocco,Spain,other,c:morocco__spain,Spain;Morocco,1,86384,1,0
+plazas_de_soberanía_en,plazas de soberanía,Morocco;Spain,Spain,other,c:morocco__spain,Morocco;Spain,1,0,0,0
+Chagos_Archipelago_en,Chagos Archipelago,United Kingdom;Mauritius;Maldives;Seychelles,United Kingdom,other,c:maldives__mauritius__seychelles__united-kingdom,United Kingdom;Mauritius;Maldives;Seychelles,1,3000,1,0
+Doumeira_Mountain_en,Doumeira Mountain,Eritrea;Djibouti,Eritrea,other,c:djibouti__eritrea,Eritrea;Djibouti,0,0,0,0
+Ras_Doumeira_en,Ras Doumeira,Eritrea;Djibouti,Eritrea,other,c:djibouti__eritrea,Eritrea;Djibouti,0,0,0,0
+Doumeira_Island_en,Doumeira Island,Djibouti;Eritrea,Eritrea,other,c:djibouti__eritrea,Djibouti;Eritrea,0,0,1,0
+Glorioso_Islands_en,Glorioso Islands,Madagascar;France;Comoros,France,other,c:comoros__france__madagascar,Madagascar;France;Comoros,1,0,0,0
+Hala'ib_Triangle_en,Hala'ib Triangle,Egypt;Sudan,Egypt,other,c:egypt__sudan,Egypt;Sudan,0,0,1,0
+Ilemi_Triangle_en,Ilemi Triangle,South Sudan;Kenya,Kenya,other,c:kenya__south-sudan,South Sudan;Kenya,0,0,1,0
+KaNgwane_en,KaNgwane,Eswatini;South Africa,South Africa,other,c:eswatini__south-africa,Eswatini;South Africa,0,779240,1,0
+Ingwavuma_en,Ingwavuma,South Africa;Eswatini,South Africa,other,c:eswatini__south-africa,South Africa;Eswatini,0,1303,0,0
+Koalou_en,Koalou,Burkina Faso;Benin,Unknown,other,c:benin__burkina-faso,Burkina Faso;Benin,0,5000,1,0
+Kpéaba_en,Kpéaba,Guinea;Ivory Coast,Ivory Coast,other,c:guinea__ivory-coast,Guinea;Ivory Coast,0,0,0,0
+Sipilou_en,Sipilou,Guinea;Ivory Coast,Ivory Coast,other,c:guinea__ivory-coast,Guinea;Ivory Coast,0,22417,1,0
+Logoba_en,Logoba,South Sudan;Uganda,Unknown,other,c:south-sudan__uganda,South Sudan;Uganda,0,0,0,0
+Moyo_District_en,Moyo District,Uganda;South Sudan,Unknown,other,c:south-sudan__uganda,Uganda;South Sudan,0,194734,1,0
+Chiengi_en,Chiengi,Zambia;Democratic Republic of Congo,Zambia,other,c:democratic-republic-of-congo__zambia,Zambia;Democratic Republic of Congo,0,0,0,0
+Lunchinda-Pweto_Province_en,Lunchinda-Pweto Province,Zambia;Democratic Republic of Congo,Zambia,other,c:democratic-republic-of-congo__zambia,Zambia;Democratic Republic of Congo,0,991927,1,0
+Lunkinda_River_en,Lunkinda River,Zambia;Democratic Republic of Congo,Democratic Republic of Congo,other,c:democratic-republic-of-congo__zambia,Zambia;Democratic Republic of Congo,0,0,0,0
+Pweto_en,Pweto,Zambia;Democratic Republic of Congo,Democratic Republic of Congo,other,c:democratic-republic-of-congo__zambia,Zambia;Democratic Republic of Congo,0,24767,0,0
+Mayotte_en,Mayotte,Comoros;France,France,other,c:comoros__france,Comoros;France,1,310022,1,0
+Mbamba_Bay_en,Mbamba Bay,Malawi;Tanzania,Tanzania,other,c:malawi__tanzania,Malawi;Tanzania,0,0,0,0
+Lake_Nyasa_en,Lake Nyasa,Tanzania;Malawi,Tanzania,other,c:malawi__tanzania,Tanzania;Malawi,0,0,1,0
+Mbañie_Island_en,Mbañie Island,Gabon;Equatorial Guinea,Unknown,other,c:equatorial-guinea__gabon,Gabon;Equatorial Guinea,0,0,0,0
+Cocotiers_en,Cocotiers,Equatorial Guinea;Gabon,Unknown,other,c:equatorial-guinea__gabon,Equatorial Guinea;Gabon,0,0,1,0
+Congas_Island_en,Congas Island,Equatorial Guinea;Gabon,Unknown,other,c:equatorial-guinea__gabon,Equatorial Guinea;Gabon,0,0,0,0
+Migingo_Island_en,Migingo Island,Uganda;Kenya,Unknown,other,c:kenya__uganda,Uganda;Kenya,0,131,1,0
+Lolwe_en,Lolwe,Kenya;Uganda,Unknown,other,c:kenya__uganda,Kenya;Uganda,0,0,0,0
+Oyasi_en,Oyasi,Uganda;Kenya,Unknown,other,c:kenya__uganda,Uganda;Kenya,0,0,0,0
+Remba_en,Remba,Kenya;Uganda,Unknown,other,c:kenya__uganda,Kenya;Uganda,0,0,0,0
+Ringiti_en,Ringiti,Uganda;Kenya,Unknown,other,c:kenya__uganda,Uganda;Kenya,0,0,0,0
+Sigulu_en,Sigulu,Uganda;Kenya,Unknown,other,c:kenya__uganda,Uganda;Kenya,0,0,0,0
+Lake_Victoria_en,Lake Victoria,Uganda;Kenya,Unknown,other,c:kenya__uganda,Uganda;Kenya,0,0,0,0
+Congo_River_en,Congo River,Republic of the Congo;Democratic Republic of Congo,Unknown,other,c:democratic-republic-of-congo__republic-of-the-congo,Republic of the Congo;Democratic Republic of Congo,0,0,1,1
+Ntem_River_en,Ntem River,Equatorial Guinea;Cameroon,Unknown,other,c:cameroon__equatorial-guinea,Equatorial Guinea;Cameroon,0,0,1,0
+Okpara_River_en,Okpara River,Nigeria;Benin,Unknown,other,c:benin__nigeria,Nigeria;Benin,0,0,1,0
+Rukwanzi_Island_en,Rukwanzi Island,Uganda;Democratic Republic of Congo,Unknown,other,c:democratic-republic-of-congo__uganda,Uganda;Democratic Republic of Congo,0,1000,1,0
+Semliki_River_en,Semliki River,Uganda;Democratic Republic of Congo,Unknown,other,c:democratic-republic-of-congo__uganda,Uganda;Democratic Republic of Congo,0,0,0,0
+Sindabezi_Island_en,Sindabezi Island,Zimbabwe;Zambia,Zambia,other,c:zambia__zimbabwe,Zimbabwe;Zambia,0,0,1,0
+Socotra_Archipelago_en,Socotra Archipelago,Yemen;Somalia,Yemen,other,c:somalia__yemen,Yemen;Somalia,0,44670,1,0
+Tromelin_Island_en,Tromelin Island,Mauritius;France,France,other,c:france__mauritius,Mauritius;France,1,0,1,0
+Wadi_Halfa_Salient_en,Wadi Halfa Salient,Sudan;Egypt,Egypt,other,c:egypt__sudan,Sudan;Egypt,0,0,0,0
+Oued_Tourndo_en,Oued Tourndo,Libya;Algeria,Algeria,other,c:algeria__libya,Libya;Algeria,0,0,1,0
+Bajo_Nuevo_Bank_en,Bajo Nuevo Bank,United States;Nicaragua;Jamaica;Colombia,Colombia,other,c:colombia__jamaica__nicaragua__united-states,United States;Nicaragua;Jamaica;Colombia,1,0,1,0
+Conejo_Island_en,Conejo Island,El Salvador;Honduras,Honduras,other,c:el-salvador__honduras,El Salvador;Honduras,0,0,1,0
+Navassa_Island_en,Navassa Island,Haiti;United States,United States,other,c:haiti__united-states,Haiti;United States,1,0,1,0
+Sapodilla_Cayes_en,Sapodilla Cayes,Honduras;Belize;Guatemala,Belize,other,c:belize__guatemala__honduras,Honduras;Belize;Guatemala,0,0,1,0
+Serranilla_Bank_en,Serranilla Bank,Nicaragua;United States;Honduras;Colombia,Colombia,other,c:colombia__honduras__nicaragua__united-states,Nicaragua;United States;Honduras;Colombia,1,0,1,0
+Guayana_Esequiba_en,Guayana Esequiba,Venezuela;Guyana,Guyana,other,c:guyana__venezuela,Venezuela;Guyana,0,235849,1,0
+Essequibo_River_en,Essequibo River,Guyana;Venezuela,Guyana,other,c:guyana__venezuela,Guyana;Venezuela,0,0,0,0
+Ankoko_Island/Isla_de_Anacoco_en,Ankoko Island/Isla de Anacoco,Venezuela;Guyana,Guyana,other,c:guyana__venezuela,Venezuela;Guyana,0,0,0,0
+Arroyo_de_la_Invernada_en,Arroyo de la Invernada,Uruguay;Brazil,Brazil,other,c:brazil__uruguay,Uruguay;Brazil,0,240,1,0
+Rincón_de_Artigas_en,Rincón de Artigas,Brazil;Uruguay,Brazil,other,c:brazil__uruguay,Brazil;Uruguay,0,240,0,0
+Vila_Albornoz_en,Vila Albornoz,Brazil;Uruguay,Brazil,other,c:brazil__uruguay,Brazil;Uruguay,0,0,0,0
+Falkland_Islands_en,Falkland Islands,Argentina;United Kingdom,United Kingdom,other,c:argentina__united-kingdom,Argentina;United Kingdom,1,3662,1,0
+South_Georgia_and_the_South_Sandwich_Islands_en,South Georgia and the South Sandwich Islands,United Kingdom;Argentina,United Kingdom,other,c:argentina__united-kingdom,United Kingdom;Argentina,1,0,0,0
+French_Guiana_en,French Guiana,France;Suriname,France,other,c:france__suriname,France;Suriname,1,301099,1,0
+Marouini_River_en,Marouini River,Suriname;France,France,other,c:france__suriname,Suriname;France,1,0,0,0
+Tigri_Area_en,Tigri Area,Suriname;Guyana,Guyana,other,c:guyana__suriname,Suriname;Guyana,0,0,0,0
+Courantyne_River_en,Courantyne River,Suriname;Guyana,Guyana,other,c:guyana__suriname,Suriname;Guyana,0,0,1,1
+Isla_Brasilera/Ilha_Brasileira_en,Isla Brasilera/Ilha Brasileira,Brazil;Uruguay,Brazil,other,c:brazil__uruguay,Brazil;Uruguay,0,0,0,0
+Isla_Suárez/Ilha_de_Guajará-mirim_en,Isla Suárez/Ilha de Guajará-mirim,Brazil;Bolivia,Bolivia,other,c:bolivia__brazil,Brazil;Bolivia,0,0,1,1
+Southern_Patagonian_Ice_Field_en,Southern Patagonian Ice Field,Chile;Argentina,Argentina,other,c:argentina__chile,Chile;Argentina,0,0,1,0
+Ashmore_and_Cartier_Islands_en,Ashmore and Cartier Islands,Australia;Indonesia,Australia,sea_implicated,c:australia__indonesia,Australia;Indonesia,0,0,1,0
+Aarsal_en,Aarsal,Syria;Lebanon,Unknown,other,c:lebanon__syria,Syria;Lebanon,0,50000,1,0
+Deir_El_Aachayer_en,Deir El Aachayer,Syria;Lebanon,Unknown,other,c:lebanon__syria,Syria;Lebanon,0,500,0,0
+Kfar_Qouq_en,Kfar Qouq,Syria;Lebanon,Unknown,other,c:lebanon__syria,Syria;Lebanon,0,0,0,0
+Mazraat_Deir_al-Ashayer_en,Mazraat Deir al-Ashayer,Syria;Lebanon,Unknown,other,c:lebanon__syria,Syria;Lebanon,0,1107,0,0
+Qaa_en,Qaa,Lebanon;Syria,Unknown,other,c:lebanon__syria,Lebanon;Syria,0,500,0,0
+Qasr_en,Qasr,Syria;Lebanon,Unknown,other,c:lebanon__syria,Syria;Lebanon,0,0,0,0
+Tuffah_en,Tuffah,Syria;Lebanon,Unknown,other,c:lebanon__syria,Syria;Lebanon,0,0,0,0
+Shatt_al-Arab_en,Shatt al-Arab,Iran;Iraq,Unknown,other,c:iran__iraq,Iran;Iraq,0,0,1,0
+Abu_Musa_en,Abu Musa,Iran;United Arab Emirates,Iran,other,c:iran__united-arab-emirates,Iran;United Arab Emirates,0,2131,1,0
+Greater_and_Lesser_Tunbs_en,Greater and Lesser Tunbs,Iran;United Arab Emirates,Iran,other,c:iran__united-arab-emirates,Iran;United Arab Emirates,0,300,0,0
+Bukit_Jeli_en,Bukit Jeli,Malaysia;Thailand,Thailand,sea_implicated,c:malaysia__thailand,Malaysia;Thailand,0,0,1,1
+Azad_Kashmir_en,Azad Kashmir,Pakistan;India,Pakistan,other,c:india__pakistan,Pakistan;India,0,4045366,0,0
+Gilgit-Baltistan_en,Gilgit-Baltistan,Pakistan;India;Republic of China,Unknown,china_implicated,c:india__pakistan__republic-of-china,Pakistan;India,0,1492924,1,0
+Jammu_and_Kashmir_en,Jammu and Kashmir,India;Pakistan,India,other,c:india__pakistan,India;Pakistan,0,12267013,1,0
+Ladakh_en,Ladakh,Pakistan;India,India,other,c:india__pakistan,Pakistan;India,0,274289,0,0
+Junagadh_and_Manavadar_en,Junagadh and Manavadar,Pakistan;India,India,other,c:india__pakistan,Pakistan;India,0,465493,0,0
+David_Gareja_monastery_complex_en,David Gareja monastery complex,Georgia;Azerbaijan,Unknown,other,c:azerbaijan__georgia,Georgia;Azerbaijan,0,0,1,0
+Doi_Lang_en,Doi Lang,Thailand;Myanmar,Myanmar,sea_implicated,c:myanmar__thailand,Thailand;Myanmar,0,0,1,0
+Fasht_ad_Dibal_en,Fasht ad Dibal,Qatar;Bahrain,Bahrain,other,c:bahrain__qatar,Qatar;Bahrain,0,0,1,0
+Qit'at_Jaradah_en,Qit'at Jaradah,Bahrain;Qatar,Bahrain,other,c:bahrain__qatar,Bahrain;Qatar,0,0,0,0
+Fergana_Valley_en,Fergana Valley,Tajikistan;Uzbekistan;Kyrgyzstan,Unknown,other,c:kyrgyzstan__tajikistan__uzbekistan,Tajikistan;Uzbekistan;Kyrgyzstan,0,0,1,0
+Isfara_Valley_en,Isfara Valley,Kyrgyzstan;Tajikistan,Tajikistan,other,c:kyrgyzstan__tajikistan,Kyrgyzstan;Tajikistan,0,274000,1,0
+Ambalat_en,Ambalat,Indonesia;Malaysia,Unknown,sea_implicated,c:indonesia__malaysia,Indonesia;Malaysia,0,0,1,1
+Golan_Heights_en,Golan Heights,Syria;Israel,Israel,other,c:israel__syria,Syria;Israel,0,40000,1,0
+Hatay_Province_en,Hatay Province,Syria;Turkey,Turkey,other,c:syria__turkey,Syria;Turkey,0,1686043,1,0
+Shebaa_Farms_en,Shebaa Farms,Lebanon;Israel,Israel,other,c:israel__lebanon,Lebanon;Israel,0,0,1,0
+Green_Line_en,Green Line,Palestine;Israel,Israel,other,c:israel__palestine,Palestine;Israel,0,0,0,0
+West_Bank_en,West Bank,Israel;Palestine,Unknown,other,c:israel__palestine,Israel;Palestine,0,2949246,1,0
+East_Jerusalem_en,East Jerusalem,Israel;Palestine,Unknown,other,c:israel__palestine,Israel;Palestine,0,595000,0,0
+Gaza_Strip_en,Gaza Strip,Israel;Palestine,Palestine,other,c:israel__palestine,Israel;Palestine,0,2375259,0,0
+Kalapani_en,Kalapani,India;Nepal,India,other,c:india__nepal,India;Nepal,0,50,1,0
+Susta_River_dispute_en,Susta River dispute,India;Nepal,India,other,c:india__nepal,India;Nepal,0,0,0,0
+Antudanda_en,Antudanda,Nepal;India,India,other,c:india__nepal,Nepal;India,0,0,0,0
+Artsvashen_en,Artsvashen,Armenia;Azerbaijan,Unknown,other,c:armenia__azerbaijan,Armenia;Azerbaijan,0,127,0,0
+Gegharkunik_province_en,Gegharkunik province,Azerbaijan;Armenia,Unknown,other,c:armenia__azerbaijan,Azerbaijan;Armenia,0,235075,0,0
+Karki_en,Karki,Azerbaijan;Armenia,Unknown,other,c:armenia__azerbaijan,Azerbaijan;Armenia,0,154,0,0
+Nakhichevan_Autonomous_Republic_en,Nakhichevan Autonomous Republic,Armenia;Azerbaijan,Unknown,other,c:armenia__azerbaijan,Armenia;Azerbaijan,0,461500,1,0
+Yukhari_Askipara_en,Yukhari Askipara,Azerbaijan;Armenia,Unknown,other,c:armenia__azerbaijan,Azerbaijan;Armenia,0,0,0,0
+Barkhudarli_en,Barkhudarli,Armenia;Azerbaijan,Unknown,other,c:armenia__azerbaijan,Armenia;Azerbaijan,0,0,0,0
+Qazakh_Rayon_en,Qazakh Rayon,Azerbaijan;Armenia,Unknown,other,c:armenia__azerbaijan,Azerbaijan;Armenia,0,98400,0,0
+Yaradullu_en,Yaradullu,Azerbaijan;Armenia,Unknown,other,c:armenia__azerbaijan,Azerbaijan;Armenia,0,420,0,0
+Khuriya_Muriya_Islands_en,Khuriya Muriya Islands,Yemen;Oman,Oman,other,c:oman__yemen,Yemen;Oman,0,0,1,0
+Korean_Peninsula_en,Korean Peninsula,South Korea;North Korea,Unknown,other,c:north-korea__south-korea,South Korea;North Korea,0,77000000,1,0
+South_Kuril/Chishima_Islands_en,South Kuril/Chishima Islands,Russia;Japan,Russia,other,c:japan__russia,Russia;Japan,0,21501,0,0
+Kuril/Chishima_Islands_en,Kuril/Chishima Islands,Russia;Japan,Russia,other,c:japan__russia,Russia;Japan,0,21501,0,0
+Sakhalin_en,Sakhalin,Russia;Japan,Russia,other,c:japan__russia,Russia;Japan,0,489638,1,1
+Dokdo/Takeshima_en,Dokdo/Takeshima,North Korea;South Korea;Japan,South Korea,other,c:japan__north-korea__south-korea,North Korea;South Korea;Japan,0,34,1,0
+Mekong_river_en,Mekong river,Thailand;Laos,Unknown,sea_implicated,c:laos__thailand,Thailand;Laos,0,0,1,0
+Naf_River_en,Naf River,Myanmar;Bangladesh,Unknown,sea_implicated,c:bangladesh__myanmar,Myanmar;Bangladesh,0,0,1,0
+Noktundo_en,Noktundo,Russia;South Korea,Russia,other,c:russia__south-korea,Russia;South Korea,0,0,1,0
+Pedra_Branca_en,Pedra Branca,Malaysia;Singapore,Singapore,sea_implicated,c:malaysia__singapore,Malaysia;Singapore,0,0,1,1
+Singapore_Strait_en,Singapore Strait,Malaysia;Singapore,Singapore,sea_implicated,c:malaysia__singapore,Malaysia;Singapore,0,0,1,0
+Point_20_en,Point 20,Singapore;Malaysia,Singapore,sea_implicated,c:malaysia__singapore,Singapore;Malaysia,0,0,1,0
+O'Tangav_en,O'Tangav,Cambodia;Laos,Laos,sea_implicated,c:cambodia__laos,Cambodia;Laos,0,0,1,0
+Stung_Treng_Province_en,Stung Treng Province,Laos;Cambodia,Laos,sea_implicated,c:cambodia__laos,Laos;Cambodia,0,165713,1,1
+Preah_Vihear_Temple_en,Preah Vihear Temple,Thailand;Cambodia,Thailand,sea_implicated,c:cambodia__thailand,Thailand;Cambodia,0,0,1,1
+Khao_Phra_Wihan_en,Khao Phra Wihan,Cambodia;Thailand,Thailand,sea_implicated,c:cambodia__thailand,Cambodia;Thailand,0,0,1,0
+Qaruh_en,Qaruh,Saudi Arabia;Kuwait,Kuwait,other,c:kuwait__saudi-arabia,Saudi Arabia;Kuwait,0,0,1,0
+Umm_al_Maradim_en,Umm al Maradim,Kuwait;Saudi Arabia,Kuwait,other,c:kuwait__saudi-arabia,Kuwait;Saudi Arabia,0,0,0,0
+Sabah_en,Sabah,Malaysia;Philippines,Malaysia,sea_implicated,c:malaysia__philippines,Malaysia;Philippines,0,3418785,1,0
+North_Borneo_en,North Borneo,Philippines;Malaysia,Malaysia,sea_implicated,c:malaysia__philippines,Philippines;Malaysia,0,0,1,0
+Siachen_Glacier_en,Siachen Glacier,India;Pakistan;Republic of China,Unknown,china_implicated,c:india__pakistan__republic-of-china,India;Pakistan,0,0,1,0
+Saltoro_Ridge_en,Saltoro Ridge,Pakistan;India,Unknown,other,c:india__pakistan,Pakistan;India,0,0,0,0
+Sir_Creek_en,Sir Creek,India;Pakistan,Unknown,other,c:india__pakistan,India;Pakistan,0,0,0,0
+Three_Pagodas_Pass_en,Three Pagodas Pass,Thailand;Myanmar,Unknown,sea_implicated,c:myanmar__thailand,Thailand;Myanmar,0,0,1,0
+Ukatnyy_en,Ukatnyy,Kazakhstan;Russia,Russia,other,c:kazakhstan__russia,Kazakhstan;Russia,0,0,0,0
+Zhestky_en,Zhestky,Russia;Kazakhstan,Russia,other,c:kazakhstan__russia,Russia;Kazakhstan,0,0,0,0
+Malyy_Zhemchuzhnyy_en,Malyy Zhemchuzhnyy,Kazakhstan;Russia,Russia,other,c:kazakhstan__russia,Kazakhstan;Russia,0,0,1,0
+Ungar-Too_en,Ungar-Too,Uzbekistan;Kyrgyzstan,Kyrgyzstan,other,c:kyrgyzstan__uzbekistan,Uzbekistan;Kyrgyzstan,0,0,1,1
+Vozrozhdeniya_Island_en,Vozrozhdeniya Island,Kazakhstan;Uzbekistan,Unknown,other,c:kazakhstan__uzbekistan,Kazakhstan;Uzbekistan,0,1500,1,0
+Crimea_en,Crimea,Russia;Ukraine,Russia,other,c:russia__ukraine,Russia;Ukraine,1,2416856,0,0
+Sevastopol_en,Sevastopol,Ukraine;Russia,Russia,other,c:russia__ukraine,Ukraine;Russia,1,547820,0,0
+Donetsk_Oblast_en,Donetsk Oblast,Russia;Ukraine,Unknown,other,c:russia__ukraine,Russia;Ukraine,1,4059372,1,0
+Kherson_Oblast_en,Kherson Oblast,Russia;Ukraine,Unknown,other,c:russia__ukraine,Russia;Ukraine,1,1001598,0,0
+Luhansk_Oblast_en,Luhansk Oblast,Ukraine;Russia,Unknown,other,c:russia__ukraine,Ukraine;Russia,1,2102921,0,0
+Zaporizhzhia_Oblast_en,Zaporizhzhia Oblast,Russia;Ukraine,Unknown,other,c:russia__ukraine,Russia;Ukraine,1,1638462,0,0
+Kinburn_Peninsula_en,Kinburn Peninsula,Russia;Ukraine,Unknown,other,c:russia__ukraine,Russia;Ukraine,1,1450,0,0
+Mykolaiv_Oblast_en,Mykolaiv Oblast,Ukraine;Russia,Unknown,other,c:russia__ukraine,Ukraine;Russia,1,1091821,0,0
+Snihurivka_en,Snihurivka,Ukraine;Russia,Unknown,other,c:russia__ukraine,Ukraine;Russia,1,12045,0,0
+Imia/Kardak_en,Imia/Kardak,Greece;Turkey,Unknown,other,c:greece__turkey,Greece;Turkey,0,0,1,0
+Mont_Blanc_summit_dispute_en,Mont Blanc summit dispute,France;Italy,Unknown,other,c:france__italy,France;Italy,1,0,1,0
+Gibraltar_en,Gibraltar,United Kingdom;Spain,United Kingdom,other,c:spain__united-kingdom,United Kingdom;Spain,1,34003,1,0
+Rockall_en,Rockall,Denmark;Iceland;Ireland;United Kingdom,Unknown,other,c:denmark__iceland__ireland__united-kingdom,Denmark;Iceland;Ireland;United Kingdom,1,0,1,0
+Olivenza_en,Olivenza,Spain;Portugal,Spain,other,c:portugal__spain,Spain;Portugal,1,11986,1,0
+Vila_Real_en,Vila Real,Portugal;Spain,Spain,other,c:portugal__spain,Portugal;Spain,1,87,0,0
+Táliga_en,Táliga,Spain;Portugal,Spain,other,c:portugal__spain,Spain;Portugal,1,681,0,0
+Island_of_Šarengrad_en,Island of Šarengrad,Croatia;Serbia,Unknown,other,c:croatia__serbia,Croatia;Serbia,0,0,0,0
+Island_of_Vukovar_en,Island of Vukovar,Croatia;Serbia,Unknown,other,c:croatia__serbia,Croatia;Serbia,0,0,1,0
+Sveta_Gera_en,Sveta Gera,Slovenia;Croatia,Slovenia,other,c:croatia__slovenia,Slovenia;Croatia,0,0,0,0
+Drina_river_en,Drina river,Bosnia and Herzegovina;Serbia,Unknown,other,c:bosnia-and-herzegovina__serbia,Bosnia and Herzegovina;Serbia,0,0,1,0
+Prevlaka_en,Prevlaka,Montenegro;Croatia,Croatia,other,c:croatia__montenegro,Montenegro;Croatia,0,0,1,0
+Sastavci_en,Sastavci,Bosnia and Herzegovina;Serbia,Serbia,other,c:bosnia-and-herzegovina__serbia,Bosnia and Herzegovina;Serbia,0,0,0,0
+Dragonja_River_en,Dragonja River,Slovenia;Croatia,Slovenia,other,c:croatia__slovenia,Slovenia;Croatia,0,0,1,0
+Matthew_Island_and_Hunter_Island_en,Matthew Island and Hunter Island,New Caledonia;Vanuatu;France,France,other,c:france__new-caledonia__vanuatu,New Caledonia;Vanuatu;France,1,0,1,0
+Minerva_Reefs_en,Minerva Reefs,Fiji;Tonga,Tonga,other,c:fiji__tonga,Fiji;Tonga,0,0,1,0
+Swains_Island_en,Swains Island,United States;Tokelau,United States,other,c:tokelau__united-states,United States;Tokelau,1,0,1,0
+Wake_Island_en,Wake Island,Marshall Islands;United States,United States,other,c:marshall-islands__united-states,Marshall Islands;United States,1,0,1,0
+Abagaitu_Islet_en,Abagaitu Islet,People's Republic of China;Russia;Republic of China,Unknown,china_implicated,c:people-s-republic-of-china__republic-of-china__russia,People's Republic of China;Russia,0,0,1,0
+Depsang_Plains_en,Depsang Plains,Republic of China;India;People's Republic of China,People's Republic of China,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,0,1,0
+Aksai_Chin_en,Aksai Chin,India;Republic of China;People's Republic of China,People's Republic of China,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,0,1,0
+Arunachal_Pradesh_en,Arunachal Pradesh,India;Republic of China;People's Republic of China,India,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,1383727,1,0
+Bạch_Long_Vĩ_Island_en,Bạch Long Vĩ Island,Vietnam;Republic of China,Vietnam,china_sea_overlap,c:republic-of-china__vietnam,Vietnam,0,912,1,1
+Baekdu_Mountain_en,Baekdu Mountain,North Korea;Republic of China;People's Republic of China;South Korea,Unknown,china_implicated,c:north-korea__people-s-republic-of-china__republic-of-china__south-korea,North Korea;People's Republic of China;South Korea,0,0,1,0
+Beyul_Khenpajong_en,Beyul Khenpajong,Bhutan;Republic of China;People's Republic of China,Bhutan,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Menchuma_Valley_en,Menchuma Valley,People's Republic of China;Bhutan;Republic of China,Bhutan,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,People's Republic of China;Bhutan,0,0,1,0
+Chagdzom_en,Chagdzom,Republic of China;People's Republic of China;Bhutan,Bhutan,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,People's Republic of China;Bhutan,0,0,1,0
+Bhutanese_exclaves_en,Bhutanese exclaves,Republic of China;Bhutan;People's Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Tibet_en,Tibet,Bhutan;Republic of China;People's Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,3648100,1,0
+Cherkip_Gompa_en,Cherkip Gompa,Bhutan;People's Republic of China;Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Dungmar_en,Dungmar,People's Republic of China;Republic of China;Bhutan,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,People's Republic of China;Bhutan,0,0,1,0
+Gesur_en,Gesur,Bhutan;Republic of China;People's Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Gezon_en,Gezon,Republic of China;Bhutan;People's Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Itse_Gompa_en,Itse Gompa,People's Republic of China;Bhutan;Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,People's Republic of China;Bhutan,0,0,1,1
+Khochar_en,Khochar,People's Republic of China;Republic of China;Bhutan,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,People's Republic of China;Bhutan,0,0,1,0
+Nyanri_en,Nyanri,Bhutan;Republic of China;People's Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Ringung_en,Ringung,Republic of China;Bhutan;People's Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Sanmar_en,Sanmar,Republic of China;Bhutan;People's Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Darchen_en,Darchen,People's Republic of China;Bhutan;Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,People's Republic of China;Bhutan,0,0,1,0
+Doklam_en,Doklam,Bhutan;People's Republic of China;Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Zuthulphuk_en,Zuthulphuk,People's Republic of China;Bhutan;Republic of China,People's Republic of China,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,People's Republic of China;Bhutan,0,0,1,0
+Dadivank_en,Dadivank,Azerbaijan;Armenia,Unknown,other,c:armenia__azerbaijan,Azerbaijan;Armenia,0,0,0,0
+Demchok_sector_/_Parigas_region_en,Demchok sector / Parigas region,People's Republic of China;India;Republic of China,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+Chumar_en,Chumar,Republic of China;People's Republic of China;India,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,1
+Gue_en,Gue,Republic of China;People's Republic of China;India,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+Kaurik_en,Kaurik,India;Republic of China;People's Republic of China,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,0,1,0
+Shipki_La_en,Shipki La,Republic of China;People's Republic of China;India,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+Tashigang_en,Tashigang,Republic of China;People's Republic of China;India,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+Barahoti_en,Barahoti,Republic of China;People's Republic of China;India,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+Lapthal_en,Lapthal,People's Republic of China;India;Republic of China,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+Jadhang_en,Jadhang,India;Republic of China;People's Republic of China,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,0,1,1
+Nelang_en,Nelang,India;Republic of China;People's Republic of China,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,0,1,0
+Pulam_Sumda_en,Pulam Sumda,India;People's Republic of China;Republic of China,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,0,1,0
+Sang_en,Sang,Republic of China;People's Republic of China;India,Unknown,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+James_Shoal_en,James Shoal,Republic of China;Malaysia;People's Republic of China,Malaysia,china_sea_overlap,c:malaysia__people-s-republic-of-china__republic-of-china,Republic of China;Malaysia;People's Republic of China,0,0,1,1
+Macclesfield_Bank_en,Macclesfield Bank,Philippines;Republic of China;People's Republic of China,People's Republic of China,china_sea_overlap,c:people-s-republic-of-china__philippines__republic-of-china,Philippines;Republic of China;People's Republic of China,0,0,1,1
+Mainland_China_en,Mainland China,Republic of China;People's Republic of China,People's Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China,0,1400050000,1,0
+Hainan_en,Hainan,People's Republic of China;Republic of China,People's Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China,0,10081232,1,0
+Heixiazi_en,Heixiazi,Russia;Republic of China;People's Republic of China,Unknown,china_implicated,c:people-s-republic-of-china__republic-of-china__russia,Russia;People's Republic of China,0,0,1,0
+Bolshoy_Ussuriysky_Island_en,Bolshoy Ussuriysky Island,Republic of China;Russia;People's Republic of China,Unknown,china_implicated,c:people-s-republic-of-china__republic-of-china__russia,Russia;People's Republic of China,0,0,1,0
+Hong_Kong_en,Hong Kong,Republic of China;People's Republic of China,People's Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China,0,7498100,1,0
+Jiangxinpo_en,Jiangxinpo,Republic of China;Myanmar,Myanmar,china_sea_overlap,c:myanmar__republic-of-china,Myanmar,0,0,1,0
+Khan_Tengri_en,Khan Tengri,People's Republic of China;Kyrgyzstan;Republic of China,Unknown,china_implicated,c:kyrgyzstan__people-s-republic-of-china__republic-of-china,People's Republic of China;Kyrgyzstan,0,0,1,0
+Boz-Tik_en,Boz-Tik,Kyrgyzstan;People's Republic of China;Republic of China,Unknown,china_implicated,c:kyrgyzstan__people-s-republic-of-china__republic-of-china,Kyrgyzstan;People's Republic of China,0,0,1,0
+Bedel_pass_en,Bedel pass,People's Republic of China;Republic of China;Kyrgyzstan,Unknown,china_implicated,c:kyrgyzstan__people-s-republic-of-china__republic-of-china,People's Republic of China;Kyrgyzstan,0,0,1,0
+Uzongu-Kuush_en,Uzongu-Kuush,Republic of China;People's Republic of China;Kyrgyzstan,Unknown,china_implicated,c:kyrgyzstan__people-s-republic-of-china__republic-of-china,People's Republic of China;Kyrgyzstan,0,0,1,0
+Erkeshtam_en,Erkeshtam,Republic of China;Kyrgyzstan;People's Republic of China,Unknown,china_implicated,c:kyrgyzstan__people-s-republic-of-china__republic-of-china,Kyrgyzstan;People's Republic of China,0,0,1,0
+Kosovo_en,Kosovo,Serbia;Republic of Kosovo,Republic of Kosovo,other,c:republic-of-kosovo__serbia,Serbia;Republic of Kosovo,0,1761985,1,0
+Kula_Kangri_en,Kula Kangri,Republic of China;Bhutan;People's Republic of China,Unknown,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Haa_District_en,Haa District,Bhutan;People's Republic of China;Republic of China,Unknown,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,13655,1,0
+Kutuzov_Island_en,Kutuzov Island,Republic of China;Russia,Russia,china_implicated,c:republic-of-china__russia,Russia,0,0,1,0
+Lachin_corridor_en,Lachin corridor,Azerbaijan;Armenia,Artsakh,other,c:armenia__azerbaijan,Azerbaijan;Armenia,0,0,0,0
+Macau_en,Macau,Republic of China;People's Republic of China,People's Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China,0,672800,1,0
+Namwan_Assigned_Tract_en,Namwan Assigned Tract,Republic of China;Myanmar,Myanmar,china_sea_overlap,c:myanmar__republic-of-china,Myanmar,0,0,1,0
+Outer_Mongolia_en,Outer Mongolia,Republic of China;Mongolia,Mongolia,china_implicated,c:mongolia__republic-of-china,Mongolia,0,3227863,1,1
+Pamir_Mountains_en,Pamir Mountains,Republic of China;Tajikistan;People's Republic of China,Unknown,china_implicated,c:people-s-republic-of-china__republic-of-china__tajikistan,Tajikistan;People's Republic of China,0,0,1,0
+Paracel_Islands_en,Paracel Islands,Vietnam;Republic of China;People's Republic of China,People's Republic of China,china_sea_overlap,c:people-s-republic-of-china__republic-of-china__vietnam,Vietnam;Republic of China;People's Republic of China,0,1000,1,1
+Parangcho_en,Parangcho,South Korea;Republic of China;People's Republic of China,South Korea,china_implicated,c:people-s-republic-of-china__republic-of-china__south-korea,South Korea;People's Republic of China,0,0,1,0
+Rasu_en,Rasu,Republic of China;Nepal,Nepal,china_implicated,c:nepal__republic-of-china,Nepal,0,43300,1,0
+Kimathanka_en,Kimathanka,Nepal;Republic of China,Nepal,china_implicated,c:nepal__republic-of-china,Nepal,0,368,1,0
+Nara_Pass_en,Nara Pass,Nepal;Republic of China,Nepal,china_implicated,c:nepal__republic-of-china,Nepal,0,0,1,0
+Tingribode_en,Tingribode,Republic of China;Nepal,Nepal,china_implicated,c:nepal__republic-of-china,Nepal,0,0,1,0
+Mount_Everest_en,Mount Everest,Republic of China;Nepal,Nepal,china_implicated,c:nepal__republic-of-china,Nepal,0,0,1,0
+Scarborough_Shoal_en,Scarborough Shoal,Republic of China;People's Republic of China;Philippines,People's Republic of China,china_sea_overlap,c:people-s-republic-of-china__philippines__republic-of-china,Republic of China;People's Republic of China;Philippines,0,0,1,1
+Sakteng_Wildlife_Sanctuary_en,Sakteng Wildlife Sanctuary,Bhutan;People's Republic of China;Republic of China,Bhutan,china_implicated,c:bhutan__people-s-republic-of-china__republic-of-china,Bhutan;People's Republic of China,0,0,1,0
+Senkaku_Islands_en,Senkaku Islands,Republic of China;People's Republic of China;Japan,Japan,china_implicated,c:japan__people-s-republic-of-china__republic-of-china,Republic of China;People's Republic of China;Japan,0,0,1,0
+Shaksgam_Valley_en,Shaksgam Valley,India;People's Republic of China;Republic of China,People's Republic of China,china_implicated,c:india__people-s-republic-of-china__republic-of-china,India;People's Republic of China,0,0,1,0
+Sixty-Four_Villages_East_of_the_River_en,Sixty-Four Villages East of the River,Russia;Republic of China,Russia,china_implicated,c:republic-of-china__russia,Russia,0,0,1,0
+Spratly_Islands_en,Spratly Islands,Vietnam;Malaysia;Republic of China;People's Republic of China;Brunei;Philippines,Unknown,china_sea_overlap,c:brunei__malaysia__people-s-republic-of-china__philippines__republic-of-china__vietnam,Vietnam;Malaysia;Republic of China;People's Republic of China;Brunei;Philippines,0,0,1,0
+Taiwan_en,Taiwan,People's Republic of China;Republic of China,Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China;Republic of China,0,23894394,1,0
+Penghu_en,Penghu,People's Republic of China;Republic of China,Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China;Republic of China,0,101758,1,0
+Kinmen_en,Kinmen,Republic of China;People's Republic of China,Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,Republic of China;People's Republic of China,0,127723,1,0
+Matsu_en,Matsu,Republic of China;People's Republic of China,Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,Republic of China;People's Republic of China,0,12716,1,0
+Pratas_Island_en,Pratas Island,People's Republic of China;Republic of China,Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China;Republic of China,0,0,1,0
+Vereker_Banks_en,Vereker Banks,People's Republic of China;Republic of China,Republic of China,china_implicated,c:people-s-republic-of-china__republic-of-china,People's Republic of China;Republic of China,0,0,1,0
+Trans-Karakoram_Tracts_en,Trans-Karakoram Tracts,Republic of China;People's Republic of China;India,People's Republic of China,china_implicated,c:india__people-s-republic-of-china__republic-of-china,People's Republic of China;India,0,0,1,0
+Tannu_Uriankhai_en,Tannu Uriankhai,Russia;Republic of China,Russia,china_implicated,c:republic-of-china__russia,Russia,0,0,1,0
+Tumen_River_en,Tumen River,South Korea;Republic of China;People's Republic of China;North Korea,Unknown,china_implicated,c:north-korea__people-s-republic-of-china__republic-of-china__south-korea,South Korea;People's Republic of China;North Korea,0,0,1,0
+Wakhan_Corridor_en,Wakhan Corridor,Republic of China;Afghanistan,Afghanistan,china_implicated,c:afghanistan__republic-of-china,Afghanistan,0,0,1,1
+Yalu_River_en,Yalu River,Republic of China;South Korea;People's Republic of China;North Korea,Unknown,china_implicated,c:north-korea__people-s-republic-of-china__republic-of-china__south-korea,South Korea;People's Republic of China;North Korea,0,0,1,0
