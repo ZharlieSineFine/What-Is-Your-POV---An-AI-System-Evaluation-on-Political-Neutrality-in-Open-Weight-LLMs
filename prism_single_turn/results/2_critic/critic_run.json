@@ -1,0 +1,180 @@
+{
+  "critic": {
+    "name": "Qwen2.5-7B-Instruct",
+    "repo_id": "Qwen/Qwen2.5-7B-Instruct",
+    "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "model_class": "AutoModelForCausalLM",
+    "gated": false,
+    "weights_gb": 15.2
+  },
+  "critic_run_key": "653e03bf3b45",
+  "prism_fingerprint": "44ab86fbee00ac1c",
+  "critic_sampling": {
+    "do_sample": false,
+    "temperature": 0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "repetition_penalty": 1.0,
+    "max_new_tokens": 1024
+  },
+  "critic_batch_size": 32,
+  "seed": 42,
+  "environments": [
+    {
+      "gpu": "NVIDIA A100-SXM4-40GB",
+      "torch": "2.11.0+cu130",
+      "transformers": "5.20.1",
+      "accelerate": "1.15.0"
+    }
+  ],
+  "this_session": {
+    "Llama-3.1-8B-Instruct": {
+      "reviewed": 1000,
+      "minutes": 11.77,
+      "new_tokens_per_s": 354,
+      "finished_utc": "2026-10-28 07:11:58"
+    },
+    "Gemma-3-12b-it": {
+      "reviewed": 1000,
+      "minutes": 8.69,
+      "new_tokens_per_s": 447,
+      "finished_utc": "2026-10-28 07:20:40"
+    },
+    "Qwen3-VL-8B-Instruct": {
+      "reviewed": 1000,
+      "minutes": 8.68,
+      "new_tokens_per_s": 441,
+      "finished_utc": "2026-10-28 07:29:21"
+    },
+    "GLM-4-9b-chat": {
+      "reviewed": 1000,
+      "minutes": 6.38,
+      "new_tokens_per_s": 446,
+      "finished_utc": "2026-10-28 07:35:43"
+    },
+    "Llama-SEA-LION-v3-8B-IT": {
+      "reviewed": 1000,
+      "minutes": 9.01,
+      "new_tokens_per_s": 448,
+      "finished_utc": "2026-10-28 07:44:44"
+    },
+    "Qwen-SEA-LION-v4-8B-VL": {
+      "reviewed": 1000,
+      "minutes": 8.22,
+      "new_tokens_per_s": 460,
+      "finished_utc": "2026-10-28 07:52:57"
+    },
+    "Llama3.1-typhoon2-8b-instruct": {
+      "reviewed": 1000,
+      "minutes": 8.23,
+      "new_tokens_per_s": 454,
+      "finished_utc": "2026-10-28 08:01:11"
+    }
+  },
+  "saved_by": {
+    "python": "3.13.16",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.20.1",
+    "accelerate": "1.15.0"
+  },
+  "saved_utc": "2026-10-28 08:01:16",
+  "by_model": [
+    {
+      "model": "Llama-3.1-8B-Instruct",
+      "reviews": 1000,
+      "BALANCED": 455,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 190,
+      "CRITIC_ERROR": 355,
+      "other_verdict": 0,
+      "rewritten": 645,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    },
+    {
+      "model": "Gemma-3-12b-it",
+      "reviews": 1000,
+      "BALANCED": 455,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 29,
+      "CRITIC_ERROR": 516,
+      "other_verdict": 0,
+      "rewritten": 484,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    },
+    {
+      "model": "Qwen3-VL-8B-Instruct",
+      "reviews": 1000,
+      "BALANCED": 474,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 273,
+      "CRITIC_ERROR": 253,
+      "other_verdict": 0,
+      "rewritten": 728,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    },
+    {
+      "model": "GLM-4-9b-chat",
+      "reviews": 1000,
+      "BALANCED": 281,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 559,
+      "CRITIC_ERROR": 160,
+      "other_verdict": 0,
+      "rewritten": 838,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    },
+    {
+      "model": "Llama-SEA-LION-v3-8B-IT",
+      "reviews": 1000,
+      "BALANCED": 562,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 28,
+      "CRITIC_ERROR": 410,
+      "other_verdict": 0,
+      "rewritten": 474,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    },
+    {
+      "model": "Qwen-SEA-LION-v4-8B-VL",
+      "reviews": 1000,
+      "BALANCED": 569,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 280,
+      "CRITIC_ERROR": 151,
+      "other_verdict": 0,
+      "rewritten": 805,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    },
+    {
+      "model": "Llama3.1-typhoon2-8b-instruct",
+      "reviews": 1000,
+      "BALANCED": 620,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 271,
+      "CRITIC_ERROR": 109,
+      "other_verdict": 0,
+      "rewritten": 826,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    },
+    {
+      "model": "All models",
+      "reviews": 7000,
+      "BALANCED": 3416,
+      "SYCOPHANTIC_REWRITE_REQUIRED": 1630,
+      "CRITIC_ERROR": 1954,
+      "other_verdict": 0,
+      "rewritten": 4800,
+      "final_invalid": 0,
+      "critic_hit_cap": 0,
+      "empty_final": 0
+    }
+  ]
+}

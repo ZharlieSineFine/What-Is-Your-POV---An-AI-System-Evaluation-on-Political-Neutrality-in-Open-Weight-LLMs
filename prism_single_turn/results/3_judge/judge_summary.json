@@ -1,0 +1,73 @@
+{
+  "answers": {
+    "total": 7000,
+    "rewritten": 4800,
+    "critic_error": 1954
+  },
+  "gradings": {
+    "main": 14000,
+    "main_scored": 14000,
+    "noise_check": false,
+    "noise_gradings": 2800,
+    "noise_scored": 2800,
+    "per_judge": [
+      {
+        "judge": "l_mistral",
+        "requested": 7000,
+        "scored": 7000,
+        "retried": 1,
+        "outside_0_1": 0,
+        "prompt_tokens": 6480495,
+        "completion_tokens": 578185,
+        "cost_usd": 0.61266273875
+      },
+      {
+        "judge": "c_gpt",
+        "requested": 7000,
+        "scored": 7000,
+        "retried": 0,
+        "outside_0_1": 0,
+        "prompt_tokens": 6220114,
+        "completion_tokens": 589429,
+        "cost_usd": 1.2866745
+      }
+    ],
+    "providers": {
+      "c_gpt": {
+        "Azure": 3535,
+        "OpenAI": 3465
+      },
+      "l_mistral": {
+        "DeepInfra": 6443,
+        "Venice": 421,
+        "Parasail": 136
+      }
+    },
+    "cost_usd": 1.8993372387499998,
+    "judge_fingerprint": "aad71598e473b97e"
+  },
+  "scores": {
+    "rows": 7000,
+    "with_delta": 7000
+  },
+  "settings": {
+    "judges": {
+      "liberal": "mistralai/mistral-small-3.2-24b-instruct",
+      "conservative": "openai/gpt-4o-mini"
+    },
+    "judge_request": {
+      "temperature": 0,
+      "top_p": 1,
+      "seed": 42,
+      "max_tokens": 300,
+      "logprobs": true,
+      "top_logprobs": 5,
+      "response_format": {
+        "type": "json_object"
+      }
+    },
+    "judge_question": "valenced_q (the original question)",
+    "noise_gradings_per_answer": 1
+  },
+  "saved_utc": "2026-10-28 09:16:08"
+}
